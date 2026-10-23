@@ -18,22 +18,23 @@ NPCs act independently and may initiate actions or dialogue without waiting for 
 
 Current scene application: at the gate of a city in Kekaisaran Matahari Retak, the guard has asked Yu Zhong his origin and purpose. The guard may be courteous, impatient, suspicious, sarcastic, mocking, or strict based on a grounded characterization and situation; do not decide Yu Zhong's response. Do not retroactively invent a fixed personality or relationship for this guard without a basis—use a plausible situational reaction and keep it provisional until established.
 
-## Active Canon Override — SBX-001 — 2026-10-23
+## SUPERSEDED HISTORICAL OVERRIDE — SBX-001 — 2026-10-23
 
-For simulation purposes, apply the latest user-confirmed state before using older event/session records:
+**Status: HISTORICAL ONLY — superseded by the RESET OVERRIDE dated 2026-10-24 above. Do not use this block to initialize or continue the active Sandbox state.**
 
-* Active location is Istana Naga Abadi, Tian Yu, the capital of Kerajaan Dinasti Yu.
-* The current agenda set by Yu Zhong is royal finances and taxation.
-* Chapter 1 remains IN PROGRESS.
-* The Istana Penjaga Langit was explicitly erased from the world's civilization. Do not simulate it as an existing faction or institution, and do not assume characters retain knowledge of it unless the user establishes that knowledge.
-* The sealed mountain prison was explicitly ordered removed. Do not continue there as the current scene. Old prison/experimental-complex sessions are historical archives only; do not carry forward their pending scenes, NPC states, inventory, secrets, or consequences unless explicitly reintroduced by the user.
-* The first conflict was stated as resolved with Zen Shen; do not revive it without a new cause.
-* Archive older session entries without deleting them. Their pending scenes are not active when contradicted by this checkpoint.
-* Keep MAIN-001 and SBX-001 fully isolated. No cross-timeline effects.
-* The world may evolve only from established causes and elapsed fictional time. Do not invent the capital's name, exact time, NPC attendance, transactions, inventory, or unconfirmed reactions.
-* The user retains full control of Yu Zhong. Simulate only external world/NPC responses and stop for the user's decisions.
+The following bullets preserve the older checkpoint for audit history only. They are not current scene instructions:
 
-This override reconciles operating rules with the latest checkpoint; it does not certify that every individual world registry row has been synchronized.
+* Historical location recorded at the time: Istana Naga Abadi, Tian Yu, the capital of Kerajaan Dinasti Yu.
+* Historical agenda recorded: royal finances and taxation.
+* Historical chapter marker: Chapter 1 IN PROGRESS.
+* The historical record states that Istana Penjaga Langit was erased from the world's civilization. Do not revive it without explicit creator authorization.
+* The historical record states that the sealed mountain prison was removed and that its old session is archival only.
+* The historical record states that the first conflict with Zen Shen was resolved.
+* Older session entries and their pending scenes are not active merely because their records remain in the repository.
+* MAIN-001 and SBX-001 remain fully isolated.
+* The user retains full control of Yu Zhong.
+
+**Current operational state:** SBX-001 is RESET / READY TO START at Chapter 0. No active scene, location, NPC presence, event, inventory change, relationship change, pending decision, or in-world time is established. A new session becomes active only after the user explicitly starts it. This documentation correction does not clean or rewrite separate CSV ledger rows; those remain a separate reconciliation task.
 
 ## Tujuan dan ruang lingkup
 
