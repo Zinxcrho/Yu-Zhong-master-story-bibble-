@@ -1,0 +1,21 @@
+
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+site:
+  title: Yu Zhong — Master Story Bible
+  structure:
+    - type: section
+      key: yu-zhong-archive-section
+      title: Yu Zhong Story Archive
+      path: yu-zhong-archive
+      icon: book-open
+      default: true
+      children:
+        - type: space
+          key: yu-zhong-source-space
+          title: Yu Zhong Source Archive
+          path: source-archive
+          default: true
+          content:
+            directory: ./
+            language: id
