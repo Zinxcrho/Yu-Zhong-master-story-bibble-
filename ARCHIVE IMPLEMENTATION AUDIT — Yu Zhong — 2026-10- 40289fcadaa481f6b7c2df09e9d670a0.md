@@ -15,44 +15,40 @@ A prior Workspace Inventory Ledger already states that full recursive enumeratio
 ### Critical findings
 
 1. **Conflicting active-location pointers remain.**
-    - The latest scene override and Sandbox Save State point to **Meridian Sunyi, authority chamber**.
-    - A separate CANON SYNC override in the Master Story Bible and an older Control Center section still say **Istana Naga Abadi, Tian Yu**.
-    - The active session record has Current Location = Meridian Sunyi, but its Yu Zhong State property still says Istana Naga Abadi, Tian Yu.
-    - An older world-clock section still names Kota Qinghe as a checkpoint.
-    - The newest scene-level checkpoint and cross-ledger addendum support Meridian Sunyi for the current SBX-001 scene. These duplicate operational pointers need targeted reconciliation; old values should remain in historical notes where appropriate.
-2. **Active session record has a stale Pending Scene field.**
-The session content and Timeline & Consequence Ledger say Nhal-Zerath has already confessed that the final-recipient field names Istana Tanpa Fajar. The session's Pending Scene property still describes the earlier interrogation beat in which Yu Zhong asks Nhal-Zerath to reveal that field. This mismatch risks replaying an already completed beat.
-3. **New operational additions are not yet cross-implemented.**
-The new Command Interpretation, Conflict Firewall, State Diff/Recovery, NPC Knowledge Network, Consequence, Decree Scope, Temporal, Open Threads, Narrative Quality, and Verified Backup rules are present in the Master Story Bible. The corresponding operating protocol, Control Center, active session record, and supporting ledgers have not all been amended and read-back verified against these clauses.
+   * The latest scene override and Sandbox Save State point to **Meridian Sunyi, authority chamber**.
+   * A separate CANON SYNC override in the Master Story Bible and an older Control Center section still say **Istana Naga Abadi, Tian Yu**.
+   * The active session record has Current Location = Meridian Sunyi, but its Yu Zhong State property still says Istana Naga Abadi, Tian Yu.
+   * An older world-clock section still names Kota Qinghe as a checkpoint.
+   * The newest scene-level checkpoint and cross-ledger addendum support Meridian Sunyi for the current SBX-001 scene. These duplicate operational pointers need targeted reconciliation; old values should remain in historical notes where appropriate.
+2. **Active session record has a stale Pending Scene field.** The session content and Timeline & Consequence Ledger say Nhal-Zerath has already confessed that the final-recipient field names Istana Tanpa Fajar. The session's Pending Scene property still describes the earlier interrogation beat in which Yu Zhong asks Nhal-Zerath to reveal that field. This mismatch risks replaying an already completed beat.
+3. **New operational additions are not yet cross-implemented.** The new Command Interpretation, Conflict Firewall, State Diff/Recovery, NPC Knowledge Network, Consequence, Decree Scope, Temporal, Open Threads, Narrative Quality, and Verified Backup rules are present in the Master Story Bible. The corresponding operating protocol, Control Center, active session record, and supporting ledgers have not all been amended and read-back verified against these clauses.
 4. **Known audit findings remain open or require renewed validation.**
-    - An older audit flagged an event-to-location relation that appeared unlinked.
-    - An older audit flagged stale source text across 30 Sandbox NPC knowledge baselines. A later cross-ledger report says those 30 rows were refreshed, but the older audit status and row-level read-back should be reconciled.
-    - An older audit flagged a Yu Zhong SBX-001 character-profile mismatch. The profile variant needs fresh comparison with the latest Master Story Bible and active scene.
-    - An earlier “many sessions Active” audit was marked Needs User Decision. A later cross-ledger report says one active session and 16 archived sessions were verified, but the original audit record was not updated in this pass. Recheck the saved view and close the stale finding only after confirming the current result.
-    - Prior audit reports explicitly say the full archive, all rows, all relations, and all saved views were not exhaustively inspected.
-5. **Archived records must be distinguished from stale operational pointers.**
-Old Qinghe opening, sealed prison/experimental-complex scenes, and Istana Penjaga Langit-related records are historical/superseded according to newer instructions and sync reports. Preserve them for audit history, but ensure they cannot be selected as active continuation points or trigger events. Search also surfaced an old prison session titled “IN PROGRESS”; its current ledger status and remaining scheduler hooks must be checked directly before claiming every obsolete hook is disabled.
-6. **Source-policy tension needs a clean implementation.**
-The Master Story Bible includes a source restriction saying to use that document alone as narrative reference, while Story Session Protocol requires reading timeline state, chapter ledger, and relevant supporting records before sessions and backups. Implement a clear distinction: the Bible governs permanent rules; the active Save State and confirmed event records establish timeline-specific current state; supporting ledgers are consulted only for relevant recordkeeping and evidence. Do not import unrelated archives into the story.
+   * An older audit flagged an event-to-location relation that appeared unlinked.
+   * An older audit flagged stale source text across 30 Sandbox NPC knowledge baselines. A later cross-ledger report says those 30 rows were refreshed, but the older audit status and row-level read-back should be reconciled.
+   * An older audit flagged a Yu Zhong SBX-001 character-profile mismatch. The profile variant needs fresh comparison with the latest Master Story Bible and active scene.
+   * An earlier “many sessions Active” audit was marked Needs User Decision. A later cross-ledger report says one active session and 16 archived sessions were verified, but the original audit record was not updated in this pass. Recheck the saved view and close the stale finding only after confirming the current result.
+   * Prior audit reports explicitly say the full archive, all rows, all relations, and all saved views were not exhaustively inspected.
+5. **Archived records must be distinguished from stale operational pointers.** Old Qinghe opening, sealed prison/experimental-complex scenes, and Istana Penjaga Langit-related records are historical/superseded according to newer instructions and sync reports. Preserve them for audit history, but ensure they cannot be selected as active continuation points or trigger events. Search also surfaced an old prison session titled “IN PROGRESS”; its current ledger status and remaining scheduler hooks must be checked directly before claiming every obsolete hook is disabled.
+6. **Source-policy tension needs a clean implementation.** The Master Story Bible includes a source restriction saying to use that document alone as narrative reference, while Story Session Protocol requires reading timeline state, chapter ledger, and relevant supporting records before sessions and backups. Implement a clear distinction: the Bible governs permanent rules; the active Save State and confirmed event records establish timeline-specific current state; supporting ledgers are consulted only for relevant recordkeeping and evidence. Do not import unrelated archives into the story.
 
 ## Scope checked in this pass
 
 ### Pages fetched and compared
 
-- Master Story Bible & Absolute Creator System
-- Story Session Protocol & Auto-Backup
-- Continuity Engine — Operating Protocol
-- Living World Simulation — Engine Manual
-- Living World Control Center
-- Main Story Current State
-- Sandbox Save State
-- Active SBX-001 session record — Meridian Sunyi
-- SBX-001 Cross-Ledger Sync — 2026-10-23
-- Workspace Inventory Ledger — Initial Audit
-- Project Audit & Sync Report — 2026-10-21
-- Living World Simulation implementation review
-- Careers / Transactions / Adult Romance implementation review
-- Key historical/superseded event records and audit entries for session status, location relations, NPC knowledge baseline, and Yu Zhong's Sandbox profile.
+* Master Story Bible & Absolute Creator System
+* Story Session Protocol & Auto-Backup
+* Continuity Engine — Operating Protocol
+* Living World Simulation — Engine Manual
+* Living World Control Center
+* Main Story Current State
+* Sandbox Save State
+* Active SBX-001 session record — Meridian Sunyi
+* SBX-001 Cross-Ledger Sync — 2026-10-23
+* Workspace Inventory Ledger — Initial Audit
+* Project Audit & Sync Report — 2026-10-21
+* Living World Simulation implementation review
+* Careers / Transactions / Adult Romance implementation review
+* Key historical/superseded event records and audit entries for session status, location relations, NPC knowledge baseline, and Yu Zhong's Sandbox profile.
 
 ### Search-based archive inventory
 
@@ -60,21 +56,21 @@ Search surfaced at least 50 SBX-related records in one result set, including bas
 
 ## Implementation matrix
 
-| System | Evidence found | Current audit status |
-| --- | --- | --- |
-| Command Interpretation Engine | Added to Master Story Bible | Added at source; downstream adoption not verified |
-| Canon Conflict Firewall | Added to Master Story Bible; older Continuity rules exist | Partial; active pointer conflicts remain |
-| State Diff / Recovery | Added to Master Story Bible; inventory-ledger workflow exists | Partial; full recovery workflow not tested |
-| NPC Knowledge Network | Knowledge Ledger and 30-row Sandbox baseline mentioned in prior report | Partial; sample and stale audit status need reconciliation |
-| Living-World Consequences | Engine manual and world registries exist | Partial; relation completeness not certified |
-| Creator Decree / Scope Registry | Cultivation & Ability Registry and Absolute Creator Authority entry exist | Partial; full decree inventory and scope consistency not checked |
-| Temporal Consistency | World Clock & Event Scheduler exists | Partial; conflicting checkpoint pointers remain |
-| Open Threads / Mystery Tracker | Saga & Mystery Tracker referenced; active mystery in checkpoint | Partial; every pending thread not enumerated |
-| Narrative Quality / Pacing | NPC autonomy and emotional rules exist in Living World Manual | Present in core manual; application across archive not tested |
-| Verified Memory / Backup | Story Session Protocol and Save State exist | Partial; live write/read-back test per ledger not performed |
-| No Unauthorized Action | Existing Player Agency / Absolute Authority rules plus new clause | Present in core rules; cross-document adoption not verified |
-| Absolute Power, Accurate Execution | Existing Absolute Creator Authority entry plus new clause | Present in core rules; execution evidence not globally audited |
-| Player Agency Lock | Existing rules plus new clause | Present in core rules; archived records still need scan for violations |
+| System                             | Evidence found                                                            | Current audit status                                                   |
+| ---------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Command Interpretation Engine      | Added to Master Story Bible                                               | Added at source; downstream adoption not verified                      |
+| Canon Conflict Firewall            | Added to Master Story Bible; older Continuity rules exist                 | Partial; active pointer conflicts remain                               |
+| State Diff / Recovery              | Added to Master Story Bible; inventory-ledger workflow exists             | Partial; full recovery workflow not tested                             |
+| NPC Knowledge Network              | Knowledge Ledger and 30-row Sandbox baseline mentioned in prior report    | Partial; sample and stale audit status need reconciliation             |
+| Living-World Consequences          | Engine manual and world registries exist                                  | Partial; relation completeness not certified                           |
+| Creator Decree / Scope Registry    | Cultivation & Ability Registry and Absolute Creator Authority entry exist | Partial; full decree inventory and scope consistency not checked       |
+| Temporal Consistency               | World Clock & Event Scheduler exists                                      | Partial; conflicting checkpoint pointers remain                        |
+| Open Threads / Mystery Tracker     | Saga & Mystery Tracker referenced; active mystery in checkpoint           | Partial; every pending thread not enumerated                           |
+| Narrative Quality / Pacing         | NPC autonomy and emotional rules exist in Living World Manual             | Present in core manual; application across archive not tested          |
+| Verified Memory / Backup           | Story Session Protocol and Save State exist                               | Partial; live write/read-back test per ledger not performed            |
+| No Unauthorized Action             | Existing Player Agency / Absolute Authority rules plus new clause         | Present in core rules; cross-document adoption not verified            |
+| Absolute Power, Accurate Execution | Existing Absolute Creator Authority entry plus new clause                 | Present in core rules; execution evidence not globally audited         |
+| Player Agency Lock                 | Existing rules plus new clause                                            | Present in core rules; archived records still need scan for violations |
 
 ## Required remediation order
 
@@ -112,12 +108,12 @@ Search surfaced at least 50 SBX-related records in one result set, including bas
 
 ## Safety constraints
 
-- No page, database, or historical record was deleted or restored by this audit.
-- No story canon was changed by this report.
-- No punishment, contract, transaction, location change, or Yu Zhong action was invented.
-- A fetched page is not proof that every row or relation within its database is correct.
-- Notion's own save is not an external backup.
-- No background automation is claimed.
+* No page, database, or historical record was deleted or restored by this audit.
+* No story canon was changed by this report.
+* No punishment, contract, transaction, location change, or Yu Zhong action was invented.
+* A fetched page is not proof that every row or relation within its database is correct.
+* Notion's own save is not an external backup.
+* No background automation is claimed.
 
 ## Audit conclusion
 
@@ -133,8 +129,8 @@ The Sandbox Session Ledger data source was queried directly after the first-pass
 
 The direct row query independently confirms two P0 metadata mismatches in the active Session ID 17:
 
-- Current Location = Meridian Sunyi, but Yu Zhong State still names Istana Naga Abadi, Tian Yu.
-- Events Summary already records the final-recipient field as Istana Tanpa Fajar, but Pending Scene still instructs the narrator to reveal that same field.
+* Current Location = Meridian Sunyi, but Yu Zhong State still names Istana Naga Abadi, Tian Yu.
+* Events Summary already records the final-recipient field as Istana Tanpa Fajar, but Pending Scene still instructs the narrator to reveal that same field.
 
 This direct query improves the evidence for the session-ledger portion of the audit only. It does not certify all other databases, saved views, archived pages, or relation fields.
 
@@ -146,49 +142,49 @@ No canon, Save State, registry, historical page, or session row was changed duri
 
 Search was scoped to the Master Story Bible root page and its descendants. It surfaced the following core sources (a search result is evidence of discovery, not proof that all child pages were enumerated):
 
-- Master Story Bible & Absolute Creator System
-- Story Session Protocol & Auto-Backup
-- Continuity Engine — Operating Protocol
-- Living World Control Center
-- Living World Simulation — Engine Manual
-- Current Story State — MAIN CANON
-- Sandbox Save State — Isolated Timeline
-- Chapter Ledger
-- Character Registry
-- Character Knowledge Ledger
-- NPC Emotion & Relationship Ledger
-- Inventory & Transaction Ledger
-- Cultivation & Ability Registry
-- Saga & Mystery Tracker
-- Timeline & Consequence Ledger
-- Consistency Review Log
-- World Clock & Event Scheduler
-- Geography & Location Registry
-- Economy & Market Ledger
-- Political Relations & Faction Ledger
-- Ecology & Species Registry
-- Law & Culture Registry
-- Rumor & Information Network
-- Career & Profession Registry
-- Job Board & Work Contracts
-- Romance & Adult Relationship Ledger
-- SBX-001 active session and cross-ledger sync notes
-- Workspace Inventory Ledger and earlier audit reports
+* Master Story Bible & Absolute Creator System
+* Story Session Protocol & Auto-Backup
+* Continuity Engine — Operating Protocol
+* Living World Control Center
+* Living World Simulation — Engine Manual
+* Current Story State — MAIN CANON
+* Sandbox Save State — Isolated Timeline
+* Chapter Ledger
+* Character Registry
+* Character Knowledge Ledger
+* NPC Emotion & Relationship Ledger
+* Inventory & Transaction Ledger
+* Cultivation & Ability Registry
+* Saga & Mystery Tracker
+* Timeline & Consequence Ledger
+* Consistency Review Log
+* World Clock & Event Scheduler
+* Geography & Location Registry
+* Economy & Market Ledger
+* Political Relations & Faction Ledger
+* Ecology & Species Registry
+* Law & Culture Registry
+* Rumor & Information Network
+* Career & Profession Registry
+* Job Board & Work Contracts
+* Romance & Adult Relationship Ledger
+* SBX-001 active session and cross-ledger sync notes
+* Workspace Inventory Ledger and earlier audit reports
 
 ### Direct row-count evidence obtained before the workspace query allowance was exhausted
 
-| Data source | Rows returned by read-only count query | Audit interpretation |
-| --- | --- | --- |
-| 02 — Character Registry | 34 | Count observed for this data source only |
-| 03 — Character Knowledge Ledger | 60 | Count observed; includes multiple timeline baselines, not yet row-by-row reconciled |
-| 04 — Chapter Ledger | 2 | Count observed; need inspect both records and timeline labels |
-| 06 — Inventory & Transaction Ledger | 2 | Count observed; insufficient by itself to certify inventory consistency |
-| 07 — Cultivation & Ability Registry | 65 | Count observed; all rows not inspected for cross-reference integrity |
-| 11 — Timeline & Consequence Ledger | 7 | Count observed; needs relation and event-status validation |
-| 13 — NPC Emotion & Relationship Ledger | 1 | Count observed; not proof that every character relationship is fully represented |
-| 14 — World Clock & Event Scheduler | 2 | Count observed; pending hooks still require inspection |
-| 05 — Saga & Mystery Tracker | 22 | Count observed; pending/open/closed state reconciliation incomplete |
-| SBX-001 Session Ledger | 17 | A separate direct rows query returned 1 Active (Session ID 17) and 16 Archived |
+| Data source                            | Rows returned by read-only count query | Audit interpretation                                                                |
+| -------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
+| 02 — Character Registry                | 34                                     | Count observed for this data source only                                            |
+| 03 — Character Knowledge Ledger        | 60                                     | Count observed; includes multiple timeline baselines, not yet row-by-row reconciled |
+| 04 — Chapter Ledger                    | 2                                      | Count observed; need inspect both records and timeline labels                       |
+| 06 — Inventory & Transaction Ledger    | 2                                      | Count observed; insufficient by itself to certify inventory consistency             |
+| 07 — Cultivation & Ability Registry    | 65                                     | Count observed; all rows not inspected for cross-reference integrity                |
+| 11 — Timeline & Consequence Ledger     | 7                                      | Count observed; needs relation and event-status validation                          |
+| 13 — NPC Emotion & Relationship Ledger | 1                                      | Count observed; not proof that every character relationship is fully represented    |
+| 14 — World Clock & Event Scheduler     | 2                                      | Count observed; pending hooks still require inspection                              |
+| 05 — Saga & Mystery Tracker            | 22                                     | Count observed; pending/open/closed state reconciliation incomplete                 |
+| SBX-001 Session Ledger                 | 17                                     | A separate direct rows query returned 1 Active (Session ID 17) and 16 Archived      |
 
 These counts are a partial inventory, not a total project count. Some source counts were not retrieved.
 
@@ -200,27 +196,27 @@ After several read-only count queries, Notion returned a workspace message that 
 
 **Critical / P0 — active checkpoint metadata disagreement**
 
-- Master Story Bible's latest scene override and Sandbox Save State identify Meridian Sunyi, authority chamber, as the active SBX-001 scene.
-- The active session's Current Location property says Meridian Sunyi, while Yu Zhong State still says Istana Naga Abadi, Tian Yu.
-- An older section of the Master Story Bible / Canon Sync notes and older Control Center text still refer to Tian Yu; an older World Clock note refers to Qinghe. These older values must be classified as historical/superseded only after the exact blocks and relevant current views are reviewed. No edits made.
+* Master Story Bible's latest scene override and Sandbox Save State identify Meridian Sunyi, authority chamber, as the active SBX-001 scene.
+* The active session's Current Location property says Meridian Sunyi, while Yu Zhong State still says Istana Naga Abadi, Tian Yu.
+* An older section of the Master Story Bible / Canon Sync notes and older Control Center text still refer to Tian Yu; an older World Clock note refers to Qinghe. These older values must be classified as historical/superseded only after the exact blocks and relevant current views are reviewed. No edits made.
 
 **Critical / P0 — stale Pending Scene field**
 
-- Active session Events Summary already records Nhal-Zerath's admission that the final-recipient field names Istana Tanpa Fajar.
-- The same active session Pending Scene still instructs the narrator to reveal that field. This is stale metadata and could cause repetition. No edits made.
+* Active session Events Summary already records Nhal-Zerath's admission that the final-recipient field names Istana Tanpa Fajar.
+* The same active session Pending Scene still instructs the narrator to reveal that field. This is stale metadata and could cause repetition. No edits made.
 
 **High / P1 — conflicting source policy / operational instructions**
 
-- Story Session Protocol says the Master Story Bible is the main canon source while also allowing active timeline state and confirmed event records.
-- Continuity Engine gives a priority order including the active Save State and supporting ledgers.
-- This can be reconciled by clarifying scope (permanent rules vs. timeline state vs. event evidence), but no change is made in audit-only mode.
+* Story Session Protocol says the Master Story Bible is the main canon source while also allowing active timeline state and confirmed event records.
+* Continuity Engine gives a priority order including the active Save State and supporting ledgers.
+* This can be reconciled by clarifying scope (permanent rules vs. timeline state vs. event evidence), but no change is made in audit-only mode.
 
 **High / P1 — older audit findings need current evidence**
 
-- A prior audit says 30 Sandbox knowledge-baseline source descriptions were stale; a later sync report says those rows were refreshed. This discrepancy cannot be resolved without querying those rows and reading the earlier audit status.
-- A prior profile audit identified a Yu Zhong SBX-001 profile conflict with the Master Bible. Fresh comparison of the actual registry row is blocked by the exhausted query allowance.
-- A prior event-location relation audit is still unresolved in the reviewed audit record; the location relation and scheduler hook could not be rechecked after the allowance was exhausted.
-- The prior multiple-active-sessions finding is contradicted by the directly queried current session rows (1 Active, 16 Archived). The old finding itself has not been edited.
+* A prior audit says 30 Sandbox knowledge-baseline source descriptions were stale; a later sync report says those rows were refreshed. This discrepancy cannot be resolved without querying those rows and reading the earlier audit status.
+* A prior profile audit identified a Yu Zhong SBX-001 profile conflict with the Master Bible. Fresh comparison of the actual registry row is blocked by the exhausted query allowance.
+* A prior event-location relation audit is still unresolved in the reviewed audit record; the location relation and scheduler hook could not be rechecked after the allowance was exhausted.
+* The prior multiple-active-sessions finding is contradicted by the directly queried current session rows (1 Active, 16 Archived). The old finding itself has not been edited.
 
 ### What was actually read
 
@@ -240,8 +236,16 @@ The Master Story Bible, Story Session Protocol, Continuity Engine, Living World 
 
 ## Sandbox reset action log — 2026-10-23
 
-User explicitly requested to move the previously inventoried 25 Sandbox objects to Notion Trash. The Notion delete-pages operation succeeded in two batches (20 + 5). Tool response confirmed: “These items are in Trash. They can be restored with the restore_pages tool or from Trash in Notion.”
+User explicitly requested to move the previously inventoried 25 Sandbox objects to Notion Trash. The Notion delete-pages operation succeeded in two batches (20 + 5). Tool response confirmed: “These items are in Trash. They can be restored with the restore\_pages tool or from Trash in Notion.”
 
 **Moved to Trash:** all 18 listed SBX-001 event/session/checkpoint records plus all 7 listed Sandbox scenario records. No MAIN-001 page was included in the operation. No permanent deletion was performed.
 
 **Still outstanding:** reset/verification of SBX-001 Save State, active session row and Control Center pointers; review any remaining cross-ledger references or shared registry entries before starting a fresh Chapter 1. These were deliberately not included in the 25-page Trash operation. Database-wide row queries were unavailable due to Notion Query Data Source access limits, so do not claim all Sandbox traces have been removed.
+
+## Reset alignment update — 2026-10-24
+
+The creator reset SBX-001 to Chapter 0 — RESET / READY TO START. GitBook's Sandbox Save State and Living World Control Center have been updated and read back successfully. The Continuity Engine, Living World Simulation Manual, and Story Session Protocol now state that all older scene/checkpoint references are historical and superseded. MAIN-001 was not edited.
+
+### Remaining repository-level limitation
+
+The linked GitHub CSV source files still contain Sandbox-specific records from prior story sessions, including old session summaries, Sandbox knowledge rows, a weather event, and an inventory snapshot. Attempts to write those files through the connected GitHub integration were denied (403), so they have not been changed or read back. Do not certify the entire repository reset as complete. The next required step is to obtain a write-capable GitHub path, then remove or neutralize only the SBX-001 story-state rows while preserving headers, templates, system registries, worldbuilding definitions, and all MAIN-001 rows.

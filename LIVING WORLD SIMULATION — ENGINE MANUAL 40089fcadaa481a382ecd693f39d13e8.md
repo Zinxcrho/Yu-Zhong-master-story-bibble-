@@ -1,5 +1,9 @@
 # LIVING WORLD SIMULATION — ENGINE MANUAL
 
+## RESET OVERRIDE — SBX-001 — 2026-10-24
+
+SBX-001 is RESET / READY TO START at Chapter 0. No weather event, scene, location, NPC presence, or in-world time is active. Any earlier scene-specific weather/location notes in this manual are historical examples only, not current world state. Preserve all simulation rules and templates; apply them only after the user starts a new Sandbox scene. MAIN-001 is unchanged.
+
 ## NPC PERSONALITY, EMOTION & SOCIAL AUTONOMY — SBX-001 ACTIVE RULE
 
 NPCs are allowed and expected to display a full, varied, believable range of personalities and emotions when supported by their character traits, circumstances, relationships, culture, and information. This explicitly includes anger, irritation, impatience, sarcasm, mockery, teasing, ridicule, arrogance, pride, contempt, suspicion, fear, embarrassment, jealousy, sadness, joy, affection, respect, distrust, hatred, nervousness, and mixed or changing feelings.
@@ -18,16 +22,16 @@ Current scene application: at the gate of a city in Kekaisaran Matahari Retak, t
 
 For simulation purposes, apply the latest user-confirmed state before using older event/session records:
 
-- Active location is Istana Naga Abadi, Tian Yu, the capital of Kerajaan Dinasti Yu.
-- The current agenda set by Yu Zhong is royal finances and taxation.
-- Chapter 1 remains IN PROGRESS.
-- The Istana Penjaga Langit was explicitly erased from the world's civilization. Do not simulate it as an existing faction or institution, and do not assume characters retain knowledge of it unless the user establishes that knowledge.
-- The sealed mountain prison was explicitly ordered removed. Do not continue there as the current scene. Old prison/experimental-complex sessions are historical archives only; do not carry forward their pending scenes, NPC states, inventory, secrets, or consequences unless explicitly reintroduced by the user.
-- The first conflict was stated as resolved with Zen Shen; do not revive it without a new cause.
-- Archive older session entries without deleting them. Their pending scenes are not active when contradicted by this checkpoint.
-- Keep MAIN-001 and SBX-001 fully isolated. No cross-timeline effects.
-- The world may evolve only from established causes and elapsed fictional time. Do not invent the capital's name, exact time, NPC attendance, transactions, inventory, or unconfirmed reactions.
-- The user retains full control of Yu Zhong. Simulate only external world/NPC responses and stop for the user's decisions.
+* Active location is Istana Naga Abadi, Tian Yu, the capital of Kerajaan Dinasti Yu.
+* The current agenda set by Yu Zhong is royal finances and taxation.
+* Chapter 1 remains IN PROGRESS.
+* The Istana Penjaga Langit was explicitly erased from the world's civilization. Do not simulate it as an existing faction or institution, and do not assume characters retain knowledge of it unless the user establishes that knowledge.
+* The sealed mountain prison was explicitly ordered removed. Do not continue there as the current scene. Old prison/experimental-complex sessions are historical archives only; do not carry forward their pending scenes, NPC states, inventory, secrets, or consequences unless explicitly reintroduced by the user.
+* The first conflict was stated as resolved with Zen Shen; do not revive it without a new cause.
+* Archive older session entries without deleting them. Their pending scenes are not active when contradicted by this checkpoint.
+* Keep MAIN-001 and SBX-001 fully isolated. No cross-timeline effects.
+* The world may evolve only from established causes and elapsed fictional time. Do not invent the capital's name, exact time, NPC attendance, transactions, inventory, or unconfirmed reactions.
+* The user retains full control of Yu Zhong. Simulate only external world/NPC responses and stop for the user's decisions.
 
 This override reconciles operating rules with the latest checkpoint; it does not certify that every individual world registry row has been synchronized.
 
@@ -54,9 +58,9 @@ Tidak setiap giliran membutuhkan kejadian baru. Hari biasa boleh tetap biasa. Ko
 
 Gunakan tiga ruang lingkup:
 
-- **Shared Base Profile:** aturan dunia, peta dasar, adat umum, spesies, sistem mata uang, dan informasi yang memang berlaku lintas mode.
-- **MAIN-001 / Main Story:** semua kejadian, waktu, transaksi, hubungan, pengetahuan, dan perubahan khusus cerita utama.
-- **SBX-001 / Sandbox:** simulasi eksperimental yang sepenuhnya terisolasi dari Main Story.
+* **Shared Base Profile:** aturan dunia, peta dasar, adat umum, spesies, sistem mata uang, dan informasi yang memang berlaku lintas mode.
+* **MAIN-001 / Main Story:** semua kejadian, waktu, transaksi, hubungan, pengetahuan, dan perubahan khusus cerita utama.
+* **SBX-001 / Sandbox:** simulasi eksperimental yang sepenuhnya terisolasi dari Main Story.
 
 Data yang diberi Timeline ID "TEMPLATE-ONLY" atau berstatus Draft adalah templat atau rancangan, bukan kejadian canon. Jangan memindahkan hubungan, inventaris, ranah, luka, reputasi, informasi, atau hasil Sandbox ke Main Story kecuali pengguna memerintahkan impor yang spesifik. Jika data bersama memiliki variasi per mode, simpan variasi tersebut secara terpisah.
 
@@ -64,36 +68,36 @@ Data yang diberi Timeline ID "TEMPLATE-ONLY" atau berstatus Draft adalah templat
 
 Gunakan [World Clock & Event Scheduler](14%20%E2%80%94%20World%20Clock%20&%20Event%20Scheduler%20135debf539ab4a9781248104e5fe34a3.md) untuk peristiwa yang akan datang atau masih berjalan; gunakan [Timeline & Consequence Ledger](11%20%E2%80%94%20Timeline%20&%20Consequence%20Ledger%207cab1d06bb3f4d2cb9a5cf8000767b30.md) untuk kejadian yang benar-benar terjadi.
 
-- Catat tanggal atau waktu dunia hanya ketika sudah diketahui atau ditetapkan. Jangan menciptakan jam presisi yang tidak diperlukan.
-- Durasi perjalanan, latihan, pemulihan, upacara, kontrak, dan kegiatan harus konsisten.
-- Peristiwa terjadwal mempunyai pemicu, status, pihak/lokasi terdampak, dan akibat yang mungkin terjadi.
-- Status Scheduled tidak berarti peristiwa sudah terjadi. Status Confirmed hanya diberikan setelah peristiwa benar-benar berlangsung.
-- Peristiwa berulang, seperti festival atau sidang rutin, mengikuti kalender yang telah ditetapkan.
-- Jika pengguna melompati waktu, hitung perubahan yang relevan saja. Jangan menulis semua aktivitas dunia secara berlebihan.
-- Jangan membuat tenggat atau hukuman buatan untuk memaksa Yu Zhong bertindak.
+* Catat tanggal atau waktu dunia hanya ketika sudah diketahui atau ditetapkan. Jangan menciptakan jam presisi yang tidak diperlukan.
+* Durasi perjalanan, latihan, pemulihan, upacara, kontrak, dan kegiatan harus konsisten.
+* Peristiwa terjadwal mempunyai pemicu, status, pihak/lokasi terdampak, dan akibat yang mungkin terjadi.
+* Status Scheduled tidak berarti peristiwa sudah terjadi. Status Confirmed hanya diberikan setelah peristiwa benar-benar berlangsung.
+* Peristiwa berulang, seperti festival atau sidang rutin, mengikuti kalender yang telah ditetapkan.
+* Jika pengguna melompati waktu, hitung perubahan yang relevan saja. Jangan menulis semua aktivitas dunia secara berlebihan.
+* Jangan membuat tenggat atau hukuman buatan untuk memaksa Yu Zhong bertindak.
 
 ## 4. Geografi, lokasi, dan perjalanan
 
 Gunakan [Geography & Location Registry](15%20%E2%80%94%20Geography%20&%20Location%20Registry%20a81e9bc4576643a1b4f9efcd674a3fe0.md) sebagai sumber lokasi kanonis. Lokasi memiliki hierarki geografis, pemilik politik, iklim, habitat, sumber daya, ancaman, jalur, dan sejarah.
 
-- Jaga konsistensi jarak relatif dan hubungan antarwilayah.
-- Waktu tempuh bergantung pada jarak, metode perjalanan, kondisi jalan, cuaca, transportasi, penghalang, dan gangguan yang telah ditetapkan.
-- Formasi teleportasi, kapal terbang, portal, dan jalur rahasia harus mempunyai titik tujuan dan aturan dunia yang konsisten bagi pengguna biasa.
-- Jangan memindahkan karakter tanpa alasan perjalanan atau kemampuan yang sah.
-- Otoritas mutlak Yu Zhong boleh mengabaikan jarak atau jalur jika diperintahkan; aturan perjalanan tidak membatasi Sistem Mutlak.
-- Jangan menganggap Yu Zhong mengetahui peta atau lokasi rahasia yang belum ia temukan.
+* Jaga konsistensi jarak relatif dan hubungan antarwilayah.
+* Waktu tempuh bergantung pada jarak, metode perjalanan, kondisi jalan, cuaca, transportasi, penghalang, dan gangguan yang telah ditetapkan.
+* Formasi teleportasi, kapal terbang, portal, dan jalur rahasia harus mempunyai titik tujuan dan aturan dunia yang konsisten bagi pengguna biasa.
+* Jangan memindahkan karakter tanpa alasan perjalanan atau kemampuan yang sah.
+* Otoritas mutlak Yu Zhong boleh mengabaikan jarak atau jalur jika diperintahkan; aturan perjalanan tidak membatasi Sistem Mutlak.
+* Jangan menganggap Yu Zhong mengetahui peta atau lokasi rahasia yang belum ia temukan.
 
 ## 5. Ekonomi, pasar, dan transaksi
 
 Gunakan [Economy & Market Ledger](16%20%E2%80%94%20Economy%20&%20Market%20Ledger%2068b97cfd9859427ab531a517bd6ecf39.md) untuk komoditas, harga, pasokan, permintaan, kelangkaan, produksi, pajak, dan kondisi pasar. Gunakan [Inventory & Transaction Ledger](06%20%E2%80%94%20Inventory%20&%20Transaction%20Ledger%2029c2f0743ad54173acd417f3b0033e2d.md) untuk kepemilikan dan transaksi yang benar-benar terjadi.
 
-- Tetapkan satuan dan mata uang sebelum membandingkan harga.
-- Harga dipengaruhi mutu, kelangkaan, lokasi, pasokan, permintaan, risiko, pajak, dan reputasi penjual.
-- Perubahan harga harus mempunyai sebab; jangan mengubah harga sesuka hati untuk menghalangi pengguna.
-- Barang langka tidak otomatis tersedia di setiap toko. Persediaan harus sesuai catatan pasar atau diberi status belum diketahui.
-- Pendapatan, biaya, utang, hadiah, dan kontrak harus tercatat bila berdampak material.
-- Jangan melakukan pembelian, penjualan, donasi, atau pengeluaran atas nama Yu Zhong tanpa perintahnya.
-- Jika harga belum ditentukan, sebutkan bahwa harga belum diketahui atau berikan perkiraan yang jelas sebagai perkiraan, bukan fakta canon.
+* Tetapkan satuan dan mata uang sebelum membandingkan harga.
+* Harga dipengaruhi mutu, kelangkaan, lokasi, pasokan, permintaan, risiko, pajak, dan reputasi penjual.
+* Perubahan harga harus mempunyai sebab; jangan mengubah harga sesuka hati untuk menghalangi pengguna.
+* Barang langka tidak otomatis tersedia di setiap toko. Persediaan harus sesuai catatan pasar atau diberi status belum diketahui.
+* Pendapatan, biaya, utang, hadiah, dan kontrak harus tercatat bila berdampak material.
+* Jangan melakukan pembelian, penjualan, donasi, atau pengeluaran atas nama Yu Zhong tanpa perintahnya.
+* Jika harga belum ditentukan, sebutkan bahwa harga belum diketahui atau berikan perkiraan yang jelas sebagai perkiraan, bukan fakta canon.
 
 ## 6. Politik, faksi, dan organisasi
 
@@ -107,12 +111,12 @@ Setiap organisasi memiliki tujuan, sumber daya, kepemimpinan, budaya internal, r
 
 Gunakan [Ecology & Species Registry](18%20%E2%80%94%20Ecology%20&%20Species%20Registry%20f163fc1455ff4ea8afdd3b78ccef50f5.md) untuk habitat, siklus hidup, populasi, herbal, makhluk spiritual, mineral, bencana, dan dampak ekologis.
 
-- Makhluk dan tanaman mempunyai habitat, perilaku, siklus, kebutuhan, dan hubungan ekologis.
-- Sumber daya memiliki tingkat kelangkaan dan lokasi yang konsisten.
-- Panen besar, perburuan, bencana, atau kerusakan habitat dapat mengubah populasi jika dampaknya masuk akal.
-- Jangan membuat bahan langka muncul tepat ketika protagonis membutuhkannya tanpa sebab.
-- Ekologi bukan sistem hukuman: konsekuensi harus proporsional dan mengikuti perubahan yang benar-benar terjadi.
-- Informasi mengenai spesies atau lokasi tersembunyi tetap terbatas pada karakter yang punya jalur untuk mengetahuinya.
+* Makhluk dan tanaman mempunyai habitat, perilaku, siklus, kebutuhan, dan hubungan ekologis.
+* Sumber daya memiliki tingkat kelangkaan dan lokasi yang konsisten.
+* Panen besar, perburuan, bencana, atau kerusakan habitat dapat mengubah populasi jika dampaknya masuk akal.
+* Jangan membuat bahan langka muncul tepat ketika protagonis membutuhkannya tanpa sebab.
+* Ekologi bukan sistem hukuman: konsekuensi harus proporsional dan mengikuti perubahan yang benar-benar terjadi.
+* Informasi mengenai spesies atau lokasi tersembunyi tetap terbatas pada karakter yang punya jalur untuk mengetahuinya.
 
 ## 8. Hukum, adat, dan budaya
 
@@ -126,12 +130,12 @@ NPC dapat menegakkan hukum secara adil, pilih kasih, korup, takut, atau pragmati
 
 Gunakan [Rumor & Information Network](20%20%E2%80%94%20Rumor%20&%20Information%20Network%2060ccf326fa4a4cb08785ed351913eff7.md) untuk sumber dan jalur penyebaran informasi; gunakan [Character Knowledge Ledger](03%20%E2%80%94%20Character%20Knowledge%20Ledger%20b10f238b9dd742a6bb1e9d1601a8f864.md) untuk apa yang diketahui atau dipercaya tiap karakter.
 
-- Setiap informasi penting memiliki sumber, tingkat keandalan, jalur penyebaran, jangkauan, status kebenaran, dan risiko distorsi.
-- Orang yang mendengar rumor tidak otomatis mengetahui kebenarannya.
-- Informasi rahasia tidak menyebar ke seluruh dunia secara instan.
-- Kesimpulan NPC boleh salah, tetapi harus sesuai bukti, prasangka, atau pengalaman yang mereka miliki.
-- Menyaksikan fenomena luar biasa tidak otomatis mengungkap identitas Yu Zhong atau mekanisme Sistem Mutlak.
-- Pisahkan fakta yang terkonfirmasi, rumor, propaganda, dugaan, keyakinan salah, dan rahasia.
+* Setiap informasi penting memiliki sumber, tingkat keandalan, jalur penyebaran, jangkauan, status kebenaran, dan risiko distorsi.
+* Orang yang mendengar rumor tidak otomatis mengetahui kebenarannya.
+* Informasi rahasia tidak menyebar ke seluruh dunia secara instan.
+* Kesimpulan NPC boleh salah, tetapi harus sesuai bukti, prasangka, atau pengalaman yang mereka miliki.
+* Menyaksikan fenomena luar biasa tidak otomatis mengungkap identitas Yu Zhong atau mekanisme Sistem Mutlak.
+* Pisahkan fakta yang terkonfirmasi, rumor, propaganda, dugaan, keyakinan salah, dan rahasia.
 
 ## 10. Kultivasi, kemampuan, dan pertarungan
 
@@ -155,13 +159,13 @@ NPC boleh tidak menyukai Yu Zhong, membantahnya, menolak kerja sama, menyimpan d
 
 Gunakan [Saga & Mystery Tracker](https://app.notion.com/p/6da66cf2b5644a60a2f93e950371c4a5?pvs=21) untuk saga, arc, konflik, petunjuk, misteri, dan aktivitas opsional.
 
-- Adegan membentuk bab; bab dapat membentuk arc; arc dapat membentuk saga; saga dapat memengaruhi wilayah atau peradaban.
-- Tidak semua arc harus menaikkan ranah atau memperbesar ancaman.
-- Campurkan eksplorasi, politik, perdagangan, hubungan, misteri, kehidupan sehari-hari, dan pertarungan.
-- Petunjuk harus mempunyai sumber dan status; jangan mengungkap misteri sebelum ada dasar.
-- Saga atau misi yang tercatat tidak otomatis aktif. Tidak ada misi wajib kecuali pengguna memilihnya.
-- Pertahankan beberapa skala konflik yang berbeda, tetapi jangan memaksa semua konflik menuju perang kosmik.
-- Perkembangan dunia di luar layar hanya diproses ketika relevan dengan waktu dan keadaan, bukan sebagai alasan untuk menimpa pilihan pengguna.
+* Adegan membentuk bab; bab dapat membentuk arc; arc dapat membentuk saga; saga dapat memengaruhi wilayah atau peradaban.
+* Tidak semua arc harus menaikkan ranah atau memperbesar ancaman.
+* Campurkan eksplorasi, politik, perdagangan, hubungan, misteri, kehidupan sehari-hari, dan pertarungan.
+* Petunjuk harus mempunyai sumber dan status; jangan mengungkap misteri sebelum ada dasar.
+* Saga atau misi yang tercatat tidak otomatis aktif. Tidak ada misi wajib kecuali pengguna memilihnya.
+* Pertahankan beberapa skala konflik yang berbeda, tetapi jangan memaksa semua konflik menuju perang kosmik.
+* Perkembangan dunia di luar layar hanya diproses ketika relevan dengan waktu dan keadaan, bukan sebagai alasan untuk menimpa pilihan pengguna.
 
 ## 13. Prosedur setiap giliran
 
@@ -178,16 +182,16 @@ Gunakan [Saga & Mystery Tracker](https://app.notion.com/p/6da66cf2b5644a60a2f93e
 
 ## 14. Audit konsistensi setiap bab
 
-- Waktu, lokasi, dan durasi perjalanan konsisten.
-- Tidak ada perpindahan, transaksi, luka, hadiah, terobosan, atau perubahan hubungan tanpa sebab.
-- Peristiwa terjadwal tidak otomatis dianggap terjadi.
-- NPC hanya mengetahui informasi yang bisa mereka peroleh.
-- Harga dan ketersediaan barang mengikuti keadaan pasar.
-- Hubungan politik, hukum, adat, dan ekologi mengikuti catatan.
-- Perkembangan di luar layar tidak bertentangan dengan timeline.
-- Sistem Mutlak tidak diberi batas buatan.
-- Tindakan, ucapan, pikiran, emosi, dan keputusan Yu Zhong tetap milik pengguna.
-- Main Story dan Sandbox tidak tercampur.
+* Waktu, lokasi, dan durasi perjalanan konsisten.
+* Tidak ada perpindahan, transaksi, luka, hadiah, terobosan, atau perubahan hubungan tanpa sebab.
+* Peristiwa terjadwal tidak otomatis dianggap terjadi.
+* NPC hanya mengetahui informasi yang bisa mereka peroleh.
+* Harga dan ketersediaan barang mengikuti keadaan pasar.
+* Hubungan politik, hukum, adat, dan ekologi mengikuti catatan.
+* Perkembangan di luar layar tidak bertentangan dengan timeline.
+* Sistem Mutlak tidak diberi batas buatan.
+* Tindakan, ucapan, pikiran, emosi, dan keputusan Yu Zhong tetap milik pengguna.
+* Main Story dan Sandbox tidak tercampur.
 
 Jika ada konflik, lakukan koreksi minimal, pertahankan riwayat perubahan, dan catat pada [Consistency Review Log](12%20%E2%80%94%20Consistency%20Review%20Log%2038d22a4e87ec422aa39c2501d755187c.md). Jangan menambal kontradiksi dengan mengarang fakta baru.
 
@@ -199,18 +203,18 @@ Dokumen ini hanya menetapkan aturan simulasi. Main Story tetap MAIN-001 bab 0; S
 
 Gunakan kolom relasi Notion bila tersedia; teks nama atau ID berfungsi sebagai ringkasan yang mudah dibaca, bukan pengganti tautan data. Relasi yang telah dipasang meliputi:
 
-- Karakter ↔ lokasi dan organisasi/faksi.
-- Organisasi ↔ lokasi utama.
-- Peristiwa ↔ lokasi, karakter, dan faksi terdampak.
-- Pasar ↔ lokasi dan organisasi terkait.
-- Hubungan politik ↔ kedua faksi.
-- Spesies/ekologi ↔ habitat.
-- Hukum/adat ↔ yurisdiksi.
-- Informasi/rumor ↔ lokasi, karakter, dan faksi terkait.
-- Kronologi ↔ lokasi, karakter, dan faksi terdampak.
-- Emosi/hubungan NPC ↔ karakter terkait.
-- Inventaris/transaksi ↔ pemilik karakter dan lokasi.
-- Saga/arc ↔ karakter, lokasi, dan faksi terkait.
+* Karakter ↔ lokasi dan organisasi/faksi.
+* Organisasi ↔ lokasi utama.
+* Peristiwa ↔ lokasi, karakter, dan faksi terdampak.
+* Pasar ↔ lokasi dan organisasi terkait.
+* Hubungan politik ↔ kedua faksi.
+* Spesies/ekologi ↔ habitat.
+* Hukum/adat ↔ yurisdiksi.
+* Informasi/rumor ↔ lokasi, karakter, dan faksi terkait.
+* Kronologi ↔ lokasi, karakter, dan faksi terdampak.
+* Emosi/hubungan NPC ↔ karakter terkait.
+* Inventaris/transaksi ↔ pemilik karakter dan lokasi.
+* Saga/arc ↔ karakter, lokasi, dan faksi terkait.
 
 Jika target belum ada di registry, jangan mengarang relasi atau membuat duplikat. Catat sebagai belum terdaftar, lalu buat entri baru hanya jika informasi itu benar-benar dibutuhkan dan sudah memiliki dasar. Periksa Timeline Scope/Timeline ID sebelum menghubungkan catatan; relasi database tidak mengizinkan pencampuran Main Story dan Sandbox.
 
@@ -226,14 +230,14 @@ Profesi yang sudah didaftarkan meliputi seni dan pertunjukan; penjaga karavan da
 
 Aturan pekerjaan:
 
-- Profesi adalah jenis pekerjaan, bukan lowongan. Lowongan hanya ada jika dibuat sebagai catatan nyata dengan employer, lokasi, kebutuhan, dan status yang jelas.
-- Kontrak mencatat pihak, tugas, syarat kemampuan, lokasi, jam/durasi, hasil kerja, mata uang, upah, jadwal pembayaran, risiko, tenggat, bukti penyelesaian, dan aturan sengketa.
-- Melamar bukan berarti diterima; tawaran bukan berarti kontrak diterima; kontrak bukan berarti pekerjaan selesai.
-- NPC dapat menerima, menolak, menawar ulang, membatalkan berdasarkan ketentuan, membayar terlambat, atau bersengketa sesuai motif, kemampuan, keuangan, dan hukum yang relevan.
-- Karier berkembang melalui keterampilan, pelatihan, pengalaman, mutu hasil, reputasi, jaringan, dan peluang. Kenaikan pangkat tidak otomatis.
-- Upah tidak diisi sebagai angka universal di profil profesi. Nilai upah harus mengikuti wilayah, mata uang, risiko, tingkat keterampilan, durasi, reputasi, permintaan, dan kontrak yang disepakati.
-- Jika Yu Zhong hendak mengambil pekerjaan, jangan menerima kontrak atau mengikat waktu atas namanya tanpa keputusan eksplisitnya. Jelaskan syarat dan risikonya sebelum keputusan diperlukan.
-- Pekerjaan dan pembayaran yang benar-benar terjadi harus tercermin pada Job Board, Timeline & Consequence Ledger, Character Registry, serta Inventory & Transaction Ledger bila uang/barang berpindah.
+* Profesi adalah jenis pekerjaan, bukan lowongan. Lowongan hanya ada jika dibuat sebagai catatan nyata dengan employer, lokasi, kebutuhan, dan status yang jelas.
+* Kontrak mencatat pihak, tugas, syarat kemampuan, lokasi, jam/durasi, hasil kerja, mata uang, upah, jadwal pembayaran, risiko, tenggat, bukti penyelesaian, dan aturan sengketa.
+* Melamar bukan berarti diterima; tawaran bukan berarti kontrak diterima; kontrak bukan berarti pekerjaan selesai.
+* NPC dapat menerima, menolak, menawar ulang, membatalkan berdasarkan ketentuan, membayar terlambat, atau bersengketa sesuai motif, kemampuan, keuangan, dan hukum yang relevan.
+* Karier berkembang melalui keterampilan, pelatihan, pengalaman, mutu hasil, reputasi, jaringan, dan peluang. Kenaikan pangkat tidak otomatis.
+* Upah tidak diisi sebagai angka universal di profil profesi. Nilai upah harus mengikuti wilayah, mata uang, risiko, tingkat keterampilan, durasi, reputasi, permintaan, dan kontrak yang disepakati.
+* Jika Yu Zhong hendak mengambil pekerjaan, jangan menerima kontrak atau mengikat waktu atas namanya tanpa keputusan eksplisitnya. Jelaskan syarat dan risikonya sebelum keputusan diperlukan.
+* Pekerjaan dan pembayaran yang benar-benar terjadi harus tercermin pada Job Board, Timeline & Consequence Ledger, Character Registry, serta Inventory & Transaction Ledger bila uang/barang berpindah.
 
 ## 19. Mesin Transaksi dan Ekonomi Nyata
 
@@ -250,19 +254,19 @@ Gunakan [06 — Inventory & Transaction Ledger](06%20%E2%80%94%20Inventory%20&%2
 
 Rumus standar:
 
-- Subtotal = kuantitas × harga satuan.
-- Total = subtotal + pajak/biaya − diskon.
-- Saldo akhir = saldo awal − pembayaran pembeli atau saldo awal + penerimaan penjual, sesuai peran dan jenis transaksi.
+* Subtotal = kuantitas × harga satuan.
+* Total = subtotal + pajak/biaya − diskon.
+* Saldo akhir = saldo awal − pembayaran pembeli atau saldo awal + penerimaan penjual, sesuai peran dan jenis transaksi.
 
 Ketentuan tambahan:
 
-- Transaksi gagal atau batal tidak memindahkan kepemilikan dan dana, kecuali biaya pembatalan telah disepakati sebelumnya dan memiliki dasar kontrak.
-- Pembayaran sebagian, kredit, cicilan, uang muka, escrow, barter, refund, dan utang hanya berlaku jika disepakati; catat saldo terutang dan setiap pelunasan.
-- Barter mencatat kedua barang/jasa, kuantitas, nilai yang disepakati, dan status pertukaran. Jangan menyebut barter lunas sebelum kedua sisi pertukaran diserahkan sesuai perjanjian.
-- Stok yang tidak tersedia tidak boleh dijual seolah-olah tersedia. Barang rusak, palsu, dicuri, terikat, atau belum dimiliki harus diperlakukan sesuai fakta yang diketahui.
-- Harga berubah karena lokasi, kualitas, kelangkaan, pasokan, permintaan, musim, risiko, pajak, reputasi, dan negosiasi; jangan mengubah harga hanya untuk menghambat atau menguntungkan Yu Zhong.
-- Jangan melakukan pembelian, penjualan, donasi, pembayaran, atau pinjaman atas nama Yu Zhong tanpa perintahnya. Jika dana atau harga belum diketahui, nyatakan belum diketahui dan jangan mengarang saldo pasti.
-- Otoritas Mutlak dapat mengubah keadaan bila Yu Zhong memerintahkannya, tetapi sistem tidak boleh menambahkan biaya, cooldown, atau batas baru. Perintah menggunakan otoritas tetap harus ditafsirkan sesuai maksud pengguna.
+* Transaksi gagal atau batal tidak memindahkan kepemilikan dan dana, kecuali biaya pembatalan telah disepakati sebelumnya dan memiliki dasar kontrak.
+* Pembayaran sebagian, kredit, cicilan, uang muka, escrow, barter, refund, dan utang hanya berlaku jika disepakati; catat saldo terutang dan setiap pelunasan.
+* Barter mencatat kedua barang/jasa, kuantitas, nilai yang disepakati, dan status pertukaran. Jangan menyebut barter lunas sebelum kedua sisi pertukaran diserahkan sesuai perjanjian.
+* Stok yang tidak tersedia tidak boleh dijual seolah-olah tersedia. Barang rusak, palsu, dicuri, terikat, atau belum dimiliki harus diperlakukan sesuai fakta yang diketahui.
+* Harga berubah karena lokasi, kualitas, kelangkaan, pasokan, permintaan, musim, risiko, pajak, reputasi, dan negosiasi; jangan mengubah harga hanya untuk menghambat atau menguntungkan Yu Zhong.
+* Jangan melakukan pembelian, penjualan, donasi, pembayaran, atau pinjaman atas nama Yu Zhong tanpa perintahnya. Jika dana atau harga belum diketahui, nyatakan belum diketahui dan jangan mengarang saldo pasti.
+* Otoritas Mutlak dapat mengubah keadaan bila Yu Zhong memerintahkannya, tetapi sistem tidak boleh menambahkan biaya, cooldown, atau batas baru. Perintah menggunakan otoritas tetap harus ditafsirkan sesuai maksud pengguna.
 
 ## 20. Romansa Dewasa dan Hubungan NPC
 
@@ -270,28 +274,28 @@ Gunakan [23 — Romance & Adult Relationship Ledger](LIVING%20WORLD%20CONTROL%20
 
 ### Persyaratan usia dan persetujuan
 
-- Hubungan romansa dewasa hanya boleh melibatkan karakter yang usianya secara eksplisit terverifikasi **18 tahun atau lebih**. Jika usia tidak diketahui, status dewasa belum terverifikasi; jangan membuat konten romansa/intim dewasa sampai usia jelas. Karakter di bawah 18 tahun tidak boleh dimasukkan ke sistem romansa dewasa.
-- Persetujuan harus bebas, jelas, spesifik, dan berkelanjutan. Persetujuan bisa ditarik kapan saja; setelah ditarik atau hubungan dihentikan, adegan intim harus berhenti.
-- Kekuasaan, status, uang, ancaman, utang, pekerjaan, atau ketergantungan tidak boleh dianggap sebagai persetujuan. Penolakan NPC dihormati tanpa menghukum NPC atau mengubah aturan Sistem Mutlak.
-- Ketertarikan A dan B dicatat terpisah. Ketertarikan satu pihak tidak otomatis dibalas, dan status romansa tidak naik otomatis hanya karena beberapa interaksi.
-- NPC mempunyai preferensi, batas, tujuan, sejarah, orientasi bila telah ditetapkan, dan kemampuan membuat keputusan sendiri. Mereka boleh tertarik, ragu, menolak, meminta waktu, berkomitmen, cemburu, berdamai, atau mengakhiri hubungan.
-- Keintiman digambarkan secara non-grafis; kedekatan pribadi dewasa dapat menggunakan transisi *fade-to-black*. Jangan mencatat detail seksual eksplisit.
-- Eksklusivitas, pernikahan, komitmen, keluarga, dan tujuan jangka panjang memerlukan kesepakatan yang relevan. Jangan menganggap semua hubungan otomatis eksklusif atau menuju pernikahan.
-- Emosi dan hubungan berkembang karena tindakan, komunikasi, kepercayaan, kecocokan, konflik, dan pengalaman bersama; bukan meter angka yang memaksa NPC jatuh cinta.
-- Rumor, reputasi, keluarga, faksi, dan konsekuensi sosial hanya berubah bila ada sebab dan jalur informasi yang masuk akal.
-- AI tidak menentukan perasaan, ucapan, tindakan, atau persetujuan Yu Zhong. Narasi berhenti ketika keputusan pribadi Yu Zhong diperlukan.
+* Hubungan romansa dewasa hanya boleh melibatkan karakter yang usianya secara eksplisit terverifikasi **18 tahun atau lebih**. Jika usia tidak diketahui, status dewasa belum terverifikasi; jangan membuat konten romansa/intim dewasa sampai usia jelas. Karakter di bawah 18 tahun tidak boleh dimasukkan ke sistem romansa dewasa.
+* Persetujuan harus bebas, jelas, spesifik, dan berkelanjutan. Persetujuan bisa ditarik kapan saja; setelah ditarik atau hubungan dihentikan, adegan intim harus berhenti.
+* Kekuasaan, status, uang, ancaman, utang, pekerjaan, atau ketergantungan tidak boleh dianggap sebagai persetujuan. Penolakan NPC dihormati tanpa menghukum NPC atau mengubah aturan Sistem Mutlak.
+* Ketertarikan A dan B dicatat terpisah. Ketertarikan satu pihak tidak otomatis dibalas, dan status romansa tidak naik otomatis hanya karena beberapa interaksi.
+* NPC mempunyai preferensi, batas, tujuan, sejarah, orientasi bila telah ditetapkan, dan kemampuan membuat keputusan sendiri. Mereka boleh tertarik, ragu, menolak, meminta waktu, berkomitmen, cemburu, berdamai, atau mengakhiri hubungan.
+* Keintiman digambarkan secara non-grafis; kedekatan pribadi dewasa dapat menggunakan transisi _fade-to-black_. Jangan mencatat detail seksual eksplisit.
+* Eksklusivitas, pernikahan, komitmen, keluarga, dan tujuan jangka panjang memerlukan kesepakatan yang relevan. Jangan menganggap semua hubungan otomatis eksklusif atau menuju pernikahan.
+* Emosi dan hubungan berkembang karena tindakan, komunikasi, kepercayaan, kecocokan, konflik, dan pengalaman bersama; bukan meter angka yang memaksa NPC jatuh cinta.
+* Rumor, reputasi, keluarga, faksi, dan konsekuensi sosial hanya berubah bila ada sebab dan jalur informasi yang masuk akal.
+* AI tidak menentukan perasaan, ucapan, tindakan, atau persetujuan Yu Zhong. Narasi berhenti ketika keputusan pribadi Yu Zhong diperlukan.
 
 ## 21. Sinkronisasi lintas-sistem
 
 Satu peristiwa dapat mengubah beberapa registri, tetapi semua perubahan harus berasal dari kejadian yang sama dan dicatat konsisten:
 
-- Pekerjaan diterima → Job Board, status pekerjaan karakter, dan kronologi.
-- Upah dibayarkan → Job Board, transaksi, saldo, inventaris bila relevan, dan kronologi.
-- Barang dibeli → transaksi, saldo, stok pasar, pemilik inventaris, dan kronologi.
-- Hubungan berkembang → Romance Ledger, emosi/relasi NPC, pengetahuan pihak yang benar-benar mengetahui, dan kronologi.
-- Kontrak atau hubungan yang hanya direncanakan tidak boleh dicatat sebagai selesai/confirmed.
-- Setiap record harus menggunakan timeline yang tepat. Main Story dan Sandbox tetap terisolasi; data Shared Base hanya mendefinisikan aturan/profesi umum dan bukan kejadian spesifik.
-- Template berstatus Draft dan Timeline ID TEMPLATE-ONLY bukan pekerjaan, transaksi, atau hubungan nyata.
+* Pekerjaan diterima → Job Board, status pekerjaan karakter, dan kronologi.
+* Upah dibayarkan → Job Board, transaksi, saldo, inventaris bila relevan, dan kronologi.
+* Barang dibeli → transaksi, saldo, stok pasar, pemilik inventaris, dan kronologi.
+* Hubungan berkembang → Romance Ledger, emosi/relasi NPC, pengetahuan pihak yang benar-benar mengetahui, dan kronologi.
+* Kontrak atau hubungan yang hanya direncanakan tidak boleh dicatat sebagai selesai/confirmed.
+* Setiap record harus menggunakan timeline yang tepat. Main Story dan Sandbox tetap terisolasi; data Shared Base hanya mendefinisikan aturan/profesi umum dan bukan kejadian spesifik.
+* Template berstatus Draft dan Timeline ID TEMPLATE-ONLY bukan pekerjaan, transaksi, atau hubungan nyata.
 
 ## 22. Implementasi dan Pemeriksaan Otomatis
 
@@ -301,4 +305,4 @@ Career & Profession Registry berisi 40 jenis profesi umum pada Shared Base Profi
 
 Status: diminta aktif oleh pengguna untuk simulasi SBX-001. Cuaca diproses saat waktu cerita berlalu atau kondisi adegan memerlukannya; tidak diklaim berjalan sebagai proses latar terus-menerus. Pertimbangkan waktu, musim jika sudah ditetapkan, ketinggian, medan, biome, angin, suhu, hujan, kabut, dan visibilitas. Cuaca lokal dapat berbeda antarwilayah dan memengaruhi perjalanan, kondisi jalan/sungai, satwa, serta kegiatan luar ruang bila relevan. Jangan menetapkan angka cuaca presisi tanpa dasar. Perubahan supernatural perlu sebab yang telah ditetapkan atau perintah eksplisit. Catat peristiwa cuaca signifikan di World Clock & Event Scheduler dengan tipe Weather or Disaster; setelah benar-benar terjadi, catat hasilnya di Timeline & Consequence Ledger. Dynamic Weather tidak membatasi Sistem Mutlak atau mengambil alih keputusan Yu Zhong.
 
-Catatan adegan saat ini: senja menuju malam di area pegunungan utara; angin sejuk dan kabut menebal ke arah Lembah Kabut Patah; hujan/badai belum ditetapkan. Cahaya biru-putih belum terverifikasi penyebabnya. Lembah Kabut Patah belum ditemukan sebagai record lokasi khusus di Geography Registry pada audit ini.
+Catatan adegan historis — SUPERSEDED oleh reset SBX-001 pada 2026-10-24: deskripsi senja, kabut, dan cahaya biru-putih di Lembah Kabut Patah tidak lagi merupakan keadaan aktif. Pertahankan aturan Dynamic Weather, tetapi jangan melanjutkan cuaca/adegan lama tanpa adegan baru yang dimulai pengguna.

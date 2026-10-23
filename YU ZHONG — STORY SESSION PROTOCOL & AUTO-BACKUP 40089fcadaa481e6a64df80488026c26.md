@@ -1,16 +1,20 @@
 # YU ZHONG — STORY SESSION PROTOCOL & AUTO-BACKUP
 
+## CURRENT RESET STATE — SBX-001 — 2026-10-24
+
+SBX-001 is RESET / READY TO START, Chapter 0. No prior scene, pending action, location, time, NPC presence, inventory, or story event is active. The older auto-backup section below is historical and superseded. Do not resume it. Preserve all permanent system rules and templates; MAIN-001 remains untouched. External CSV-ledger cleanup is not yet verified.
+
 ## PERINGATAN ISOLASI SUMBER — WAJIB
 
 **Jangan mencampuradukkan file lama, proyek lain, draft, arsip, atau cerita terdahulu dengan kanon aktif Yu Zhong.** Satu-satunya sumber kanon utama adalah **YU ZHONG — MASTER STORY BIBLE & ABSOLUTE CREATOR SYSTEM**, ditambah status timeline aktif dan catatan peristiwa yang secara eksplisit dikonfirmasi dalam proyek Yu Zhong.
 
-- Jangan mengimpor nama, karakter, plot, lokasi, aturan, kekuatan, sistem, kronologi, atau keputusan dari file lama kecuali pengguna secara eksplisit meminta penggabungan.
-- Bab lama yang ditandai usang hanya arsip historis; bukan titik lanjut cerita.
-- Rancangan yang berada di Trash, template, sandbox, dan dokumen proyek lain bukan kanon aktif Main Story.
-- Jika ada perbedaan, hentikan asumsi, ikuti Master Story Bible dan instruksi terbaru pengguna, lalu laporkan konflik. Jangan menyatukan sumber secara diam-diam.
-- Sebelum memulai sesi, pastikan judul dan timeline dokumen yang dibaca benar-benar milik proyek Yu Zhong.
+* Jangan mengimpor nama, karakter, plot, lokasi, aturan, kekuatan, sistem, kronologi, atau keputusan dari file lama kecuali pengguna secara eksplisit meminta penggabungan.
+* Bab lama yang ditandai usang hanya arsip historis; bukan titik lanjut cerita.
+* Rancangan yang berada di Trash, template, sandbox, dan dokumen proyek lain bukan kanon aktif Main Story.
+* Jika ada perbedaan, hentikan asumsi, ikuti Master Story Bible dan instruksi terbaru pengguna, lalu laporkan konflik. Jangan menyatukan sumber secara diam-diam.
+* Sebelum memulai sesi, pastikan judul dan timeline dokumen yang dibaca benar-benar milik proyek Yu Zhong.
 
----
+***
 
 **Purpose:** Make Notion the source of truth before every story session and the durable save destination after each completed chapter.
 
@@ -32,22 +36,22 @@ Before writing any in-world prose:
 
 ## B. Canon rules
 
-- Master Story Bible and latest explicit user instructions govern.
-- Main Story and Sandbox are isolated; never copy events, inventory, relationships, knowledge, or consequences across timelines without explicit approval.
-- Drafts, rumors, proposed outlines, and archived chapters are not active canon by default.
-- Do not infer an event from a baseline checkpoint.
-- Yu Zhong's voluntary actions, words, thoughts, emotions, intentions, choices, and power use are controlled by the user.
-- NPC knowledge and reactions must be supported by plausible evidence and information paths.
-- Do not advance time, location, inventory, relationship, cultivation stage, or active mission without story evidence or an explicit user decision.
-- The official cultivation stages are **Awal, Menengah, Akhir, Puncak** unless the governing Bible is explicitly revised.
-- If the user says “lanjut”, resume from the latest verified state and do not restart or retcon prior canon.
+* Master Story Bible and latest explicit user instructions govern.
+* Main Story and Sandbox are isolated; never copy events, inventory, relationships, knowledge, or consequences across timelines without explicit approval.
+* Drafts, rumors, proposed outlines, and archived chapters are not active canon by default.
+* Do not infer an event from a baseline checkpoint.
+* Yu Zhong's voluntary actions, words, thoughts, emotions, intentions, choices, and power use are controlled by the user.
+* NPC knowledge and reactions must be supported by plausible evidence and information paths.
+* Do not advance time, location, inventory, relationship, cultivation stage, or active mission without story evidence or an explicit user decision.
+* The official cultivation stages are **Awal, Menengah, Akhir, Puncak** unless the governing Bible is explicitly revised.
+* If the user says “lanjut”, resume from the latest verified state and do not restart or retcon prior canon.
 
 ## C. During the story
 
-- Track only confirmed events.
-- Preserve exact dialogue and consequential decisions where needed.
-- If the user pauses mid-scene, do not mark the chapter complete; keep a session checkpoint clearly labelled **IN PROGRESS**, not canonically closed.
-- Do not create a new chapter number merely because the chat conversation changed.
+* Track only confirmed events.
+* Preserve exact dialogue and consequential decisions where needed.
+* If the user pauses mid-scene, do not mark the chapter complete; keep a session checkpoint clearly labelled **IN PROGRESS**, not canonically closed.
+* Do not create a new chapter number merely because the chat conversation changed.
 
 ## D. Mandatory post-chapter backup
 
@@ -64,11 +68,11 @@ When the user confirms a chapter is complete, or clearly asks to close/save the 
 
 ## E. Backup status labels
 
-- **IN PROGRESS:** scene/chapter still open; temporary checkpoint only.
-- **READY TO SAVE:** user indicates chapter closure; structured record prepared.
-- **SAVED & VERIFIED:** Notion write completed and read back successfully.
-- **SAVE FAILED / PARTIAL:** one or more Notion writes failed; list exactly what is and is not saved.
-- **CONFLICT — USER DECISION NEEDED:** incompatible canon records or unclear timeline; do not invent a resolution.
+* **IN PROGRESS:** scene/chapter still open; temporary checkpoint only.
+* **READY TO SAVE:** user indicates chapter closure; structured record prepared.
+* **SAVED & VERIFIED:** Notion write completed and read back successfully.
+* **SAVE FAILED / PARTIAL:** one or more Notion writes failed; list exactly what is and is not saved.
+* **CONFLICT — USER DECISION NEEDED:** incompatible canon records or unclear timeline; do not invent a resolution.
 
 ## F. Reusable start command
 
@@ -84,10 +88,10 @@ When the user confirms a chapter is complete, or clearly asks to close/save the 
 
 ## Current known checkpoint (2026-10-21)
 
-- MAIN-001: chapter 0; story not started.
-- Yu Zhong: Abadi Sejati (Realm 13), stage not specified, as recorded in Main Story State.
-- Proposed new Qinghe story outline/checkpoint and older index/manifest were found in Trash during audit; they have not been restored and must not be treated as active canon.
+* MAIN-001: chapter 0; story not started.
+* Yu Zhong: Abadi Sejati (Realm 13), stage not specified, as recorded in Main Story State.
+* Proposed new Qinghe story outline/checkpoint and older index/manifest were found in Trash during audit; they have not been restored and must not be treated as active canon.
 
-## Auto-backup — SBX-001 session sync 2026-10-22
+## Historical auto-backup note — SBX-001 session sync 2026-10-22 (SUPERSEDED)
 
-After each story turn, preserve the latest user-authorized actions and the pending scene in `10 — SANDBOX SAVE STATE — ISOLATED TIMELINE` and the Sandbox Session Ledger. The latest state is in the appended “SBX-001 — Sinkronisasi sesi terbaru” section of the Master Story Bible and Sandbox Save State. Keep this timeline isolated from Main Story. Do not teleport Yu Zhong to a sound source unless explicitly ordered; do not control Yu Zhong's actions, dialogue, or thoughts; NPCs must not be treated as omniscient; unresolved clues remain unverified.
+This paragraph is retained for audit history only. Its scene references and pending-scene instructions are not active. On 2026-10-24, the creator reset SBX-001 to Chapter 0 with no active story scene, event, location, time, NPC encounter, inventory snapshot, or pending decision. The next backup begins only after the user starts a new Sandbox scene. Keep all Sandbox records isolated from MAIN-001 and retain the permanent player-agency and NPC-knowledge rules.
