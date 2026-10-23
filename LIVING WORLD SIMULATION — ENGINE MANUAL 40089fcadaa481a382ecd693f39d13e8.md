@@ -443,3 +443,7 @@ If two sources disagree about a name, realm, affiliation, location, relationship
 ### G. Reset and timeline safety
 
 The SBX-001 reset baseline remains Chapter 0 / Ready to Start until the user begins a new scene. This Phase 2 registry workflow does not instantiate any Sandbox character or faction and does not alter MAIN-001. Historical rows may remain in source ledgers; they must not be treated as active solely because they still exist.
+
+## Demonic Path Phase 3 — Regional presence and encounter variety
+
+Use the Phase 3 guidance in the [Demonic Path subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) when simulating encounters. Check verified location, time, regional context, known events, and plausible NPC motives. Vary encounters between ordinary social/economic interactions, information exchange, negotiation, conflict when justified, and no encounter. Do not invent regional population figures or hidden sect control. Record only meaningful events after they occur. Preserve creator control of Yu Zhong and strict MAIN-001/SBX-001 isolation. This rules update does not change the active checkpoint.

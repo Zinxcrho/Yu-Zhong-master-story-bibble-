@@ -108,3 +108,7 @@ Reference: [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH C
 **Status:** Record routing and verification conventions documented. Existing registries remain authoritative; no new database or fictional record was created. See [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) and [Living World Simulation — Engine Manual](<LIVING WORLD SIMULATION — ENGINE MANUAL 40089fcadaa481a382ecd693f39d13e8.md>).
 
 The next time a demonic-path cultivator or faction enters a scene, use the Phase 2 workflow to route facts to the correct existing registry, tag the active timeline, distinguish claims from confirmed facts, and read back each actual change. This update does not change the active story checkpoint.
+
+## Demonic Path Phase 3 — Encounter calibration
+
+Regional presence and encounter variety rules are documented in the subsystem and Engine Manual. These are simulation rules only; no characters, factions, or encounters are created by this update. At runtime, use verified location/time and known regional context, vary encounter type and intensity, allow quiet intervals, and record only meaningful events. Preserve MAIN-001/SBX-001 isolation and creator control.

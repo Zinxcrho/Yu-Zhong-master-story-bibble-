@@ -244,3 +244,23 @@ If two sources disagree about a name, realm, affiliation, location, relationship
 ### G. Reset and timeline safety
 
 The SBX-001 reset baseline remains Chapter 0 / Ready to Start until the user begins a new scene. This Phase 2 registry workflow does not instantiate any Sandbox character or faction and does not alter MAIN-001. Historical rows may remain in source ledgers; they must not be treated as active solely because they still exist.
+
+## Phase 3 — Regional presence and encounter variety
+
+This section is a simulation guide, not a claim that any new character, sect, or event already exists.
+
+### Regional context
+
+Before introducing a practitioner, consider verified local population and traffic, trade routes, spiritual resources, laws and enforcement, known organizations, current events, and whether a visitor would reveal or conceal their affiliation. Use qualitative labels such as Rare, Occasional, Common, or Concentrated only when evidence supports them. Otherwise, leave local presence Unknown.
+
+### Encounter variety
+
+Possible encounters include a traveler, merchant, healer, courier, guide, recruiter, informant, negotiator, rival, fugitive, or no encounter at all. Select what fits the location, time, current events, and NPC's goal. Do not make every demonic-path practitioner hostile, powerful, mysterious, or linked to a major plot. Avoid repeating the same encounter pattern.
+
+### Independent activity
+
+NPCs may pursue their own goals when time passes and a plausible cause exists. Record only meaningful changes that affect resources, relationships, reputation, access, or future choices. Do not claim an off-screen outcome as fact until it is grounded and recorded.
+
+### Pacing and creator control
+
+Allow quiet scenes and ordinary daily life. Escalation requires a plausible cause. If Yu Zhong must respond, stop and let the creator decide. These rules do not create actual encounters, named factions, or canon events, and do not alter either timeline's active checkpoint.
