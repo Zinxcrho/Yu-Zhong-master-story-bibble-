@@ -112,3 +112,7 @@ The next time a demonic-path cultivator or faction enters a scene, use the Phase
 ## Demonic Path Phase 3 — Encounter calibration
 
 Regional presence and encounter variety rules are documented in the subsystem and Engine Manual. These are simulation rules only; no characters, factions, or encounters are created by this update. At runtime, use verified location/time and known regional context, vary encounter type and intensity, allow quiet intervals, and record only meaningful events. Preserve MAIN-001/SBX-001 isolation and creator control.
+
+## Demonic Path Phase 4 — Consequence rules
+
+Reputation, trade, local law, and faction relations change only when supported by an established event. Keep witness knowledge, rumor, public belief, and verified fact distinct. Record completed transactions rather than estimates as actual ledger entries. Apply only known regional laws, preserve historical claims when later corrected, and never transfer consequences between MAIN-001 and SBX-001. See the subsystem and Engine Manual for the full Phase 4 workflow.

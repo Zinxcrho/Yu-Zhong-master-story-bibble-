@@ -447,3 +447,35 @@ The SBX-001 reset baseline remains Chapter 0 / Ready to Start until the user beg
 ## Demonic Path Phase 3 — Regional presence and encounter variety
 
 Use the Phase 3 guidance in the [Demonic Path subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) when simulating encounters. Check verified location, time, regional context, known events, and plausible NPC motives. Vary encounters between ordinary social/economic interactions, information exchange, negotiation, conflict when justified, and no encounter. Do not invent regional population figures or hidden sect control. Record only meaningful events after they occur. Preserve creator control of Yu Zhong and strict MAIN-001/SBX-001 isolation. This rules update does not change the active checkpoint.
+
+## Phase 4 — Reputation, economy, and faction consequences
+
+These are rules for resolving consequences after supported events. They do not establish any new event, price, law, faction, or reputation as fact.
+
+### Reputation
+
+Keep separate: actual conduct, witness accounts, public reputation, faction opinion, legal allegation, and verified finding. Reputation may vary by region and audience. A single witness does not automatically establish universal knowledge. Record the source, reach, confidence, and any correction when available.
+
+### Economy and trade
+
+Record a transaction only when an exchange, agreement, debt, payment, theft, or transfer actually occurs. Prices may vary by region, scarcity, law, risk, supply, demand, and relationship, but do not invent exact prices as established facts without a source or an in-scene negotiation. Distinguish an asking price, agreed price, estimate, rumor, and completed payment. Update inventory only after ownership or possession changes are confirmed.
+
+### Law and enforcement
+
+A jurisdiction may tolerate, regulate, restrict, or prohibit particular practices. Apply only laws already established for that region. Enforcement depends on evidence, authority, resources, incentives, and local conditions; it is not omniscient. Do not assume every demonic-path practitioner is wanted or every orthodox institution is lawful.
+
+### Faction relations
+
+A relationship between factions changes only when a supported trigger occurs, such as a negotiated agreement, proven betrayal, resource dispute, attack, public accusation, debt, or leadership change. Distinguish private intent, public position, rumor, and formal agreement. Do not escalate to open conflict without a cause and recorded sequence.
+
+### Consequence chain
+
+For a significant event, record: cause/source; actors; what was observed; confirmed outcome; who knows; immediate consequences; delayed or uncertain effects; timeline; and links to relevant records. Mark projections as possibilities until they occur. If the outcome is uncertain, do not write it as confirmed.
+
+### Corrections and reversals
+
+When evidence disproves a rumor or a prior claim, preserve the historical record and append the correction with its source. Do not silently rewrite what characters believed at the time. A faction may still act on outdated information until it receives the correction through a plausible channel.
+
+### Creator and timeline safeguards
+
+Do not invent consequences that constrain Yu Zhong, add costs or weaknesses to the Absolute System, or decide Yu Zhong's response. Keep all consequences within the timeline in which the triggering event occurred. Never transfer reputation, debt, knowledge, inventory, or faction relations between MAIN-001 and SBX-001 without explicit creator authorization.
