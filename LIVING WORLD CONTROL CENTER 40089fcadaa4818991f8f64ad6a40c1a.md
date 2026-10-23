@@ -84,3 +84,11 @@ Do not instantiate a session until the creator starts it.
 ## Reset Audit Note — 2026-10-24
 
 The active Sandbox pointer now refers to the reset baseline. Previous scene summaries in historical reports are not active continuation instructions. The Save State preserves operating rules and a clean-start template. This edit does not claim that separate CSV/Markdown ledger rows or repository files have been deleted; they must be inventoried and reconciled separately. MAIN-001 remains untouched.
+
+## Living-World Subsystem: Demonic Path Cultivators
+
+**Reference:** [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) **Rules integrated into:** [Living World Simulation — Engine Manual](<LIVING WORLD SIMULATION — ENGINE MANUAL 40089fcadaa481a382ecd693f39d13e8.md>)
+
+The subsystem's operational rules are available to the simulation. “Demonic Path” is not automatically equivalent to evil; practitioners and factions may be predatory, pragmatic, protective, scholarly, mercenary, exiled, reformist, or unaffiliated. Encounters can involve trade, negotiation, cooperation, rivalry, or conflict according to context.
+
+**Canon boundary:** the reusable simulation rules are adopted, but individual factions, named characters, sect territories, conflicts, and events are not confirmed canon until introduced in a scene or explicitly approved. Use existing registries and ledgers; tag every story record with MAIN-001 or SBX-001. Never transfer facts between timelines without explicit authorization. Do not add arbitrary limitations or costs to the Absolute System, and do not control Yu Zhong on the user's behalf.

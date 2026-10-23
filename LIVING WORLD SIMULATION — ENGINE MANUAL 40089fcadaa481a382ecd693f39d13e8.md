@@ -306,3 +306,26 @@ Career & Profession Registry berisi 40 jenis profesi umum pada Shared Base Profi
 Status: diminta aktif oleh pengguna untuk simulasi SBX-001. Cuaca diproses saat waktu cerita berlalu atau kondisi adegan memerlukannya; tidak diklaim berjalan sebagai proses latar terus-menerus. Pertimbangkan waktu, musim jika sudah ditetapkan, ketinggian, medan, biome, angin, suhu, hujan, kabut, dan visibilitas. Cuaca lokal dapat berbeda antarwilayah dan memengaruhi perjalanan, kondisi jalan/sungai, satwa, serta kegiatan luar ruang bila relevan. Jangan menetapkan angka cuaca presisi tanpa dasar. Perubahan supernatural perlu sebab yang telah ditetapkan atau perintah eksplisit. Catat peristiwa cuaca signifikan di World Clock & Event Scheduler dengan tipe Weather or Disaster; setelah benar-benar terjadi, catat hasilnya di Timeline & Consequence Ledger. Dynamic Weather tidak membatasi Sistem Mutlak atau mengambil alih keputusan Yu Zhong.
 
 Catatan adegan historis — SUPERSEDED oleh reset SBX-001 pada 2026-10-24: deskripsi senja, kabut, dan cahaya biru-putih di Lembah Kabut Patah tidak lagi merupakan keadaan aktif. Pertahankan aturan Dynamic Weather, tetapi jangan melanjutkan cuaca/adegan lama tanpa adegan baru yang dimulai pengguna.
+
+## DEMONIC PATH CULTIVATORS — OPERATIONAL SUBSYSTEM
+
+**Source:** [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) **Implementation status:** Operational simulation rules adopted; specific factions, named cultivators, and encounters remain unconfirmed until introduced or explicitly approved.
+
+### Generation and interaction rules
+
+1. Treat “Demonic Path” as a broad family of philosophies, methods, traditions, and social labels, not a universal moral alignment.
+2. Generate practitioners in proportion to region, local law, spiritual resources, era, and established events. Do not make every town secretly controlled by a demonic faction.
+3. Use a varied population: disciples, wanderers, healers, alchemists, scouts, merchants, intelligence brokers, elders, rogue masters, hidden lineages, and rare high-level practitioners. Do not make every encounter a major threat.
+4. Treat faction archetypes in the subsystem source as optional patterns, not confirmed canon. Do not instantiate a named sect, leader, territory, conflict, or treaty as fact without story introduction or creator approval.
+5. Give each introduced NPC grounded goals, incentives, fears, loyalties, resources, temperament, and knowledge boundaries. Rumors and allegations are not objective facts unless verified in-story.
+6. Allow trade, recruitment, negotiation, rivalry, cooperation, infiltration, coexistence, and conflict where the situation supports them. Do not force combat solely because a character follows the Demonic Path.
+7. Let techniques have coherent origins, training traditions, visible signatures, reputations, and consequences supported by canon. Do not invent universal costs, cooldowns, weaknesses, power caps, or mandatory penalties for the Absolute System.
+8. Preserve power-scale continuity. Demonic-path characters must not arbitrarily override the Absolute Creator System or decide Yu Zhong’s actions, dialogue, thoughts, feelings, decisions, or power use.
+9. Record meaningful character, faction, reputation, economy, inventory, knowledge, and consequence changes only after they occur. Use existing registries and ledgers; do not create duplicate databases.
+10. Mark each instantiated character and event with its timeline. MAIN-001 and SBX-001 remain isolated; no knowledge, membership, items, relationships, injuries, or consequences transfer between them without explicit creator authorization.
+11. Background activity may be simulated when time passes and a plausible cause exists, but do not claim unseen events as established history until they are recorded in the appropriate ledger.
+12. The subsystem is available for both timelines as a reusable rule set, but activating a particular faction or character in a timeline requires an actual scene introduction or creator approval.
+
+### Required record workflow
+
+When a demonic-path practitioner or faction becomes part of a scene, update only relevant existing records: Character Registry, Character Knowledge Ledger, NPC Emotion & Relationship Ledger, Political Relations & Faction Ledger, Inventory & Transaction Ledger, Rumor & Information Network, Timeline & Consequence Ledger, and Chapter Ledger as applicable. Record the evidence/source and timeline. If the timeline or canon status is unclear, pause and ask rather than inventing it.
