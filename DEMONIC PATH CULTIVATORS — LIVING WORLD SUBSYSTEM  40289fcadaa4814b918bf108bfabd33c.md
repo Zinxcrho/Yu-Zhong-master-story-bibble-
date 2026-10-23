@@ -160,3 +160,87 @@ Blood, corpse, soul, poison, curse, shadow, beast, and forbidden-artifact tradit
 ## Integration status — 2026-10-24
 
 **Operational simulation rules integrated** into the Living World Simulation Engine Manual and referenced by the Living World Control Center. This document remains the design reference. No named faction, individual, historical atrocity, current conflict, or story event is automatically confirmed by this integration. Existing registries and ledgers remain the system of record. MAIN-001 and SBX-001 remain isolated.
+
+## Phase 2 — Registry and cross-ledger workflow
+
+Use the existing registries as the system of record. This is a field-mapping and operating convention, not an instruction to create new databases or insert fictional entries.
+
+### A. Record identity and minimum common fields
+
+Every instantiated record should carry, where the existing schema supports it:
+
+* Stable record name or ID.
+* Timeline ID: MAIN-001 or SBX-001.
+* Canon status: Proposed, Rumor, or Confirmed.
+* Evidence/source reference.
+* First introduced chapter/session and last verified checkpoint.
+* Last verified date and status.
+* Links to related characters, factions, locations, events, and transactions.
+
+If a required field does not exist in a database, do not silently change the schema. Record the missing field in the implementation audit and use a clearly labeled note until a schema change is approved.
+
+### B. Route information to the correct existing registry
+
+| Information type                                                                      | Primary existing source              | Cross-reference when relevant                      |
+| ------------------------------------------------------------------------------------- | ------------------------------------ | -------------------------------------------------- |
+| Named cultivator, known/apparent realm, affiliation, goals, current status            | Character Registry                   | Cultivation & Ability Registry; Geography Registry |
+| Technique, cultivation realm definition, artifact, specialty, source of ability claim | Cultivation & Ability Registry       | Character Registry; event source                   |
+| Faction identity, leadership, branches, alliances, rivalries, disputes                | Political Relations & Faction Ledger | Character Registry; Law & Culture Registry         |
+| NPC knowledge and how it was obtained                                                 | Character Knowledge Ledger           | Rumor & Information Network; Timeline Ledger       |
+| Trust, hostility, debt, fear, respect, rivalry                                        | NPC Emotion & Relationship Ledger    | Timeline & Consequence Ledger                      |
+| Confirmed travel, encounter, decision, conflict, outcome                              | Timeline & Consequence Ledger        | Chapter Ledger; Save State                         |
+| Possession, transfer, purchase, sale, debt payment                                    | Inventory & Transaction Ledger       | Economy & Market Ledger; Timeline Ledger           |
+| Rumor, allegation, source, reach, confidence, verification                            | Rumor & Information Network          | Character Knowledge Ledger; faction ledger         |
+| Local restrictions, enforcement, tolerated or forbidden practice                      | Law & Culture Registry               | Geography Registry; faction ledger                 |
+| Established location, access, territory, route, last verified appearance              | Geography & Location Registry        | Character Registry; Political Relations Ledger     |
+| Ongoing unresolved question or long arc                                               | Saga & Mystery Tracker               | Timeline Ledger; Character Knowledge Ledger        |
+
+Do not copy a full profile into every ledger. Store the fact once in its primary source and link to it from other records.
+
+### C. Canon status and evidence
+
+* **Proposed:** template, possibility, or unapproved design; not a world fact.
+* **Rumor:** attributed claim that circulates in-world; record source and confidence where available.
+* **Confirmed:** established by an authoritative source, a user-approved fact, or an event actually narrated and recorded.
+* Keep “apparent realm” distinct from “confirmed realm”; an NPC's claim is not proof.
+* Keep public reputation distinct from actual conduct.
+* Never promote a rumor to Confirmed without evidence.
+* Do not fill unknown fields by guessing. Use “Unknown / Not established” if the schema allows it.
+
+### D. Workflow when a cultivator appears
+
+1. Check whether the character already exists in the active timeline's Character Registry.
+2. If found in another timeline, do not import that instance. Reuse only general lore if permitted, and create a separate timeline-specific instance only when the story introduces it.
+3. Establish only details actually revealed or authorized: name, observed behavior, apparent abilities, claimed affiliation, and current location.
+4. Add confirmed details to the primary registry; label claims and rumors accurately.
+5. Add knowledge records only for information the NPC has actually received or reasonably inferred, with a source.
+6. Add relationship changes only after a meaningful interaction.
+7. Add inventory and transaction rows only after a real transfer or exchange.
+8. Add event and consequence rows only after the event occurs.
+9. Update the active Save State and Control Center only if the scene or checkpoint has actually changed.
+10. Read back all changed rows/pages and verify the timeline, references, and statuses.
+
+### E. Workflow when a faction appears
+
+1. Check the existing faction ledger for a matching entry in the same timeline.
+2. Record the faction as Proposed until its existence is introduced or approved.
+3. Confirm identity, leadership, territory, goals, allies, rivals, resources, and laws only from evidence.
+4. Separate the faction's official position from individual members' views.
+5. Record political changes only after a causally supported event.
+6. Keep the faction's rumor network and secret knowledge distinct from public information.
+7. Do not create an entire membership list or history unless needed by the story.
+
+### F. Conflict resolution and change safety
+
+If two sources disagree about a name, realm, affiliation, location, relationship, inventory, event, or timeline:
+
+* Preserve both source references.
+* Mark the conflict for review.
+* Do not choose by modification date alone.
+* Do not overwrite historical records.
+* Ask the creator if the conflict changes canon or the next scene.
+* For purely mechanical link or formatting repairs, preserve meaning and read back the result.
+
+### G. Reset and timeline safety
+
+The SBX-001 reset baseline remains Chapter 0 / Ready to Start until the user begins a new scene. This Phase 2 registry workflow does not instantiate any Sandbox character or faction and does not alter MAIN-001. Historical rows may remain in source ledgers; they must not be treated as active solely because they still exist.

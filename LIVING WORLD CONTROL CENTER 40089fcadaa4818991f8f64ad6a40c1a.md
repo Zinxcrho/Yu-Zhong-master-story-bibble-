@@ -102,3 +102,9 @@ Reference: [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH C
 **Not automatically instantiated:** no named sect, cultivator, territory, conflict, treaty, or historical event is created by this rules update. Existing registries and ledgers must be reused when story instances are introduced.
 
 **Next phases:** (2) record schemas and cross-ledger workflow; (3) encounter variety and regional density calibration; (4) reputation, rumor, economy, and political consequence tests; (5) continuity and read-back verification. Every phase must preserve MAIN-001/SBX-001 isolation and the creator's control of Yu Zhong. This system update does not alter the active story checkpoint.
+
+## Demonic Path Phase 2 — Registry workflow
+
+**Status:** Record routing and verification conventions documented. Existing registries remain authoritative; no new database or fictional record was created. See [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>) and [Living World Simulation — Engine Manual](<LIVING WORLD SIMULATION — ENGINE MANUAL 40089fcadaa481a382ecd693f39d13e8.md>).
+
+The next time a demonic-path cultivator or faction enters a scene, use the Phase 2 workflow to route facts to the correct existing registry, tag the active timeline, distinguish claims from confirmed facts, and read back each actual change. This update does not change the active story checkpoint.
