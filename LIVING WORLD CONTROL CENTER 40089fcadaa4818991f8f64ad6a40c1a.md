@@ -92,3 +92,13 @@ The active Sandbox pointer now refers to the reset baseline. Previous scene summ
 The subsystem's operational rules are available to the simulation. “Demonic Path” is not automatically equivalent to evil; practitioners and factions may be predatory, pragmatic, protective, scholarly, mercenary, exiled, reformist, or unaffiliated. Encounters can involve trade, negotiation, cooperation, rivalry, or conflict according to context.
 
 **Canon boundary:** the reusable simulation rules are adopted, but individual factions, named characters, sect territories, conflicts, and events are not confirmed canon until introduced in a scene or explicitly approved. Use existing registries and ledgers; tag every story record with MAIN-001 or SBX-001. Never transfer facts between timelines without explicit authorization. Do not add arbitrary limitations or costs to the Absolute System, and do not control Yu Zhong on the user's behalf.
+
+## Demonic Path system — staged expansion status
+
+**Phase 1: operational framework integrated.** The reusable rules cover social hierarchy, faction organization, independent daily-life activity, political relations, rumor/evidence discipline, and canon safeguards.
+
+Reference: [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>). Operational rules: [Living World Simulation — Engine Manual](<LIVING WORLD SIMULATION — ENGINE MANUAL 40089fcadaa481a382ecd693f39d13e8.md>).
+
+**Not automatically instantiated:** no named sect, cultivator, territory, conflict, treaty, or historical event is created by this rules update. Existing registries and ledgers must be reused when story instances are introduced.
+
+**Next phases:** (2) record schemas and cross-ledger workflow; (3) encounter variety and regional density calibration; (4) reputation, rumor, economy, and political consequence tests; (5) continuity and read-back verification. Every phase must preserve MAIN-001/SBX-001 isolation and the creator's control of Yu Zhong. This system update does not alter the active story checkpoint.

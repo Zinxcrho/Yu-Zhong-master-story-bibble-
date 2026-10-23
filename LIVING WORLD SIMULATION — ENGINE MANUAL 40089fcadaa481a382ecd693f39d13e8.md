@@ -329,3 +329,31 @@ Catatan adegan historis — SUPERSEDED oleh reset SBX-001 pada 2026-10-24: deskr
 ### Required record workflow
 
 When a demonic-path practitioner or faction becomes part of a scene, update only relevant existing records: Character Registry, Character Knowledge Ledger, NPC Emotion & Relationship Ledger, Political Relations & Faction Ledger, Inventory & Transaction Ledger, Rumor & Information Network, Timeline & Consequence Ledger, and Chapter Ledger as applicable. Record the evidence/source and timeline. If the timeline or canon status is unclear, pause and ask rather than inventing it.
+
+## Expanded Demonic Path simulation — Phase 1
+
+Reference specification: [Demonic Path Cultivators — Living World Subsystem](<DEMONIC PATH CULTIVATORS — LIVING WORLD SUBSYSTEM  40289fcadaa4814b918bf108bfabd33c.md>).
+
+### Social position is not cultivation realm
+
+For each introduced practitioner, track organizational position, actual cultivation realm, demonstrated capability, public reputation, legal status, and canon status separately. Do not infer one from another. Roles may include wanderer, disciple, specialist, executor, steward, elder, branch leader, faction head, or hidden/ancestral figure; these are role archetypes, not automatically existing people or sects.
+
+### Faction model
+
+For an introduced or creator-approved faction, use existing ledgers to record doctrine, leadership, recruitment, territory, resource flows, obligations, allies, rivals, internal disputes, public reputation, actual goals, and knowledge sources. Unknown values stay unknown. Do not create a new database when the Political Relations & Faction Ledger or other existing registry already serves the purpose.
+
+### Independent activity and event triggers
+
+Allow practitioners to travel, trade, recruit, train, investigate, hide, negotiate, provide services, fulfil debts, or pursue rivalries when context and time support it. Trigger significant off-screen events only from a plausible cause, time passage, or established schedule. Do not manufacture activity just to make the world appear busy. A quiet or uneventful interval is valid.
+
+### Political and social consequences
+
+A faction relation changes only when a supported event causes it. Record the initiating event, affected parties, source/evidence, timeline, outcome, and any follow-up. Keep rumor, accusation, public belief, and verified fact separate. Regional law may differ; do not treat a demonic label as proof of criminality.
+
+### Canon gate
+
+Use statuses Proposed, Rumor, and Confirmed. Reusable archetypes are not story canon. Named characters, sects, wars, treaties, territory ownership, ancient events, and irreversible consequences become confirmed only when grounded in an authoritative source, introduced in the active scene, or explicitly approved by the creator. When a conflict could affect the next scene, stop and ask.
+
+### Timeline gate
+
+Tag each story instance and event with MAIN-001 or SBX-001. Never transfer faction membership, knowledge, reputation, goods, relationships, injuries, or consequences between timelines without explicit creator authorization. This integration does not change any Save State, chapter, active location, or checkpoint.
