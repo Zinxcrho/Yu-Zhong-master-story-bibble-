@@ -296,3 +296,50 @@ When evidence disproves a rumor or a prior claim, preserve the historical record
 ### Creator and timeline safeguards
 
 Do not invent consequences that constrain Yu Zhong, add costs or weaknesses to the Absolute System, or decide Yu Zhong's response. Keep all consequences within the timeline in which the triggering event occurred. Never transfer reputation, debt, knowledge, inventory, or faction relations between MAIN-001 and SBX-001 without explicit creator authorization.
+
+## Phase 5 — Continuity and acceptance checklist
+
+Run these checks when the subsystem changes or before relying on it for a story session. This is a verification procedure, not evidence that any story record has been created.
+
+### Pre-session checks
+
+* Confirm the active timeline and read its current Save State and Control Center pointer.
+* Confirm only one active checkpoint is designated for that timeline.
+* Check whether the active location, time, chapter, and relevant events are established.
+* Check relevant demonic-path entries in existing registries and distinguish historical records from active state.
+* Confirm the prior backup and current source revision when a write is planned.
+
+### Record checks
+
+* Every story-specific record has a timeline identifier and canon status.
+* A named cultivator's claimed affiliation is not silently treated as confirmed membership.
+* Apparent realm, confirmed realm, reputation, legal status, and organizational position remain separate.
+* Every durable knowledge claim has a plausible source.
+* Every transaction has an established transfer or agreement; estimates are not recorded as completed payments.
+* Every political or reputation change has a traceable cause and source.
+* Rumors, accusations, and witness statements are not silently promoted to objective fact.
+* Related records link to the same event without duplicating its full contents unnecessarily.
+
+### Isolation tests
+
+* An SBX-001 event does not change MAIN-001 state.
+* A MAIN-001 event does not change SBX-001 state.
+* No knowledge, inventory, injury, relationship, membership, reputation, debt, or consequence crosses timelines without explicit creator authorization.
+* A reset checkpoint is not replaced by a historical session merely because that session still exists in an archive.
+
+### Read-back and recovery tests
+
+* After each write, read the changed source back.
+* Compare the result with the intended change and confirm unrelated content remains.
+* Check that internal links resolve and referenced pages exist.
+* Confirm the published revision or commit actually exists.
+* If a write or read-back fails, mark the operation BLOCKED and do not claim success.
+* Test restoration on a separate copy before any live recovery operation.
+
+### Acceptance status
+
+Use **PASS** only when evidence supports the check. Use **FAIL** for a demonstrated conflict and **BLOCKED** when access or evidence is unavailable. Do not use PASS for untested behavior. Report the sources tested, not merely the sources listed.
+
+### Scope boundary
+
+These checks do not certify the entire GitHub repository or all linked files unless each source was actually accessed and tested. This subsystem update does not create a named sect, cultivator, encounter, or event and does not change the active story checkpoint.

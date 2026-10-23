@@ -116,3 +116,7 @@ Regional presence and encounter variety rules are documented in the subsystem an
 ## Demonic Path Phase 4 — Consequence rules
 
 Reputation, trade, local law, and faction relations change only when supported by an established event. Keep witness knowledge, rumor, public belief, and verified fact distinct. Record completed transactions rather than estimates as actual ledger entries. Apply only known regional laws, preserve historical claims when later corrected, and never transfer consequences between MAIN-001 and SBX-001. See the subsystem and Engine Manual for the full Phase 4 workflow.
+
+## Demonic Path Phase 5 — Acceptance status
+
+A repeatable verification checklist now covers pre-session readiness, record integrity, timeline isolation, read-back, links, and recovery. Only checks supported by evidence may be marked PASS; inaccessible or untested sources remain BLOCKED. This documentation update does not itself certify the full repository or alter story state.
