@@ -120,3 +120,13 @@ Reputation, trade, local law, and faction relations change only when supported b
 ## Demonic Path Phase 5 — Acceptance status
 
 A repeatable verification checklist now covers pre-session readiness, record integrity, timeline isolation, read-back, links, and recovery. Only checks supported by evidence may be marked PASS; inaccessible or untested sources remain BLOCKED. This documentation update does not itself certify the full repository or alter story state.
+
+## ACTIVE SESSION POINTER — SBX-001 — 2026-10-24
+
+**Active timeline:** SBX-001 (Sandbox).\
+**Status:** IN PROGRESS — pre-session reconciliation completed; scene remains open.\
+**Active checkpoint:** [SBX-001 — Pre-Session Reconciliation Checkpoint — 2026-10-24](sbx-001-pre-session-reconciliation-checkpoint-2026-10-24.md).\
+**Last confirmed beat:** Yu Zhong said it was time to return home after the cooking and poem scene. Intent to return is confirmed; arrival is not confirmed.\
+**In-world time / chapter number:** not verified; do not invent or increment.\
+**Continuity guard:** The creator states Yu Zhong's father had already seen Qianlong. Verify that earlier encounter before continuing this thread.\
+**MAIN-001:** isolated and unchanged. Historical SBX records are preserved; this pointer does not certify all ledgers as globally reconciled.

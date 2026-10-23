@@ -108,3 +108,15 @@ Use existing sources and schemas; do not create duplicate systems.
 ## RESET AUDIT NOTE
 
 Reset requested and authorized by the creator on 2026-10-24. The active SBX-001 story flow, events, and checkpoints are cleared in this Save State. Permanent operating rules, system documentation, references, and this new-session template are retained. This edit does not delete the historical Git repository or automatically clear separate CSV/Markdown ledger records; those sources require a separate row-by-row pass before a repository-wide reset can be certified. MAIN-001 is not changed.
+
+## ACTIVE SESSION RECONCILIATION POINTER — SBX-001 — 2026-10-24
+
+The creator explicitly selected the cooking/poem/homeward-transition scene in the current conversation as the new active SBX-001 session. This session-specific pointer supersedes the reset baseline for this active session only; it does not delete historical records or alter MAIN-001.
+
+* **Status:** IN PROGRESS; chapter number not verified.
+* **Checkpoint:** [SBX-001 — Pre-Session Reconciliation Checkpoint — 2026-10-24](sbx-001-pre-session-reconciliation-checkpoint-2026-10-24.md).
+* **Last confirmed beat:** Yu Zhong said it was time to return home. Do not assume arrival at home.
+* **Confirmed context:** three years spent cooking and pursuing crafts; meat cooked at Yu Zhong's direction; System asked to make it taste heavenly; Yu Zhong invited the others to eat; a poem about falling, rising, and glory was composed and entrusted to Lian for saving.
+* **Continuity guard:** Yu Zhong's father had already seen Qianlong, per the creator's correction. Verify the prior event before narrating.
+* **Unverified:** exact location, in-world time, chapter number, attendees, father's encounter details, Lian's exact identity/location.
+* **MAIN-001:** unchanged and isolated. Do not import unrelated older SBX story arcs unless the creator re-establishes them.
