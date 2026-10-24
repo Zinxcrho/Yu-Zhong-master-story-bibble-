@@ -58,15 +58,15 @@ These are the previously narrated audit figures, not a line-item quotation. The 
 7. Delivery time cannot yet be estimated until the destination, final quantities, and route are confirmed.
 8. Finalize the written contract before converting the conditional custody into an official deposit or reserving stock.
 
-## Latest scene — kiosk inquiry
+## Latest scene — premium kiosk search
 
-Yu Zhong asked the chair where a shop kiosk could be purchased. The chair suggested investigating three areas:
+Yu Zhong specified that he wants a **premium kiosk**.
 
-* **Eastern Trade Street:** small shops for spiritual materials, pills, weapons, and cultivator supplies.
-* **Main Merchants District:** a strategic commercial area with larger merchants; prices may be higher.
-* **Outer-City Market:** simpler kiosks that may cost less, but traffic and demand should be checked.
+The chair recommended prioritizing the main stretch of Eastern Trade Street, especially shops visited by affluent cultivators and spiritual-material merchants. The chair instructed the property manager to obtain a list of kiosks actually for sale, not merely for rent, and verify each property's ownership, asking price, protective formations, customer traffic, and any ownership disputes.
 
-These are initial directions only. No individual kiosk, price, availability, inspection, reservation, or purchase has been confirmed. Yu Zhong has not chosen a location or budget. Do not choose on his behalf.
+The property manager has been sent to check the listings and contact owners. The chair has not yet returned with verified options.
+
+**Confirmed:** Yu Zhong prefers a premium kiosk. **Not confirmed:** Any specific property's availability, price, ownership, legal status, or quality. No property has been inspected, reserved, or purchased. **Next scene beat:** Await the property manager's verified list. Do not invent a listing or decide Yu Zhong's purchase.
 
 ## Player agency and continuity
 
