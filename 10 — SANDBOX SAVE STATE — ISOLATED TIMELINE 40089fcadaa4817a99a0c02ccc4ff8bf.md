@@ -1,6 +1,20 @@
 # 10 — SANDBOX SAVE STATE — ISOLATED TIMELINE
 
-## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 08:46 AM (SCENE CLOSED)
+## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN AUCTION CHAIR DEPOSIT PROPOSAL
+
+**Status:** IN PROGRESS. The active Sandbox scene is the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is preserved as historical. MAIN-001 remains isolated and unchanged.\
+**Current location:** VIP reception room, upper floor of Balai Pelelangan Qinglan.\
+**Narrated time:** Day 2, morning; exact minute not established.\
+**Latest user proposal:** Yu Zhong proposes a deposit of 10,000,000 pure-grade spirit stones, with the remaining balance paid after all materials arrive at his residence.\
+**Chair's response:** Interested in principle, but the proposal is not formally accepted. The chair requires an itemized stock list, current prices, verification of grades/quality/authenticity, delivery costs, an agreed transaction denomination/exchange rate if required, and a written contract covering destination, deadline, inspection, and loss/damage responsibility. No exchange rate between pure-grade and high-grade stones is established.\
+**Trade status:** Proposal only. No deposit paid or received; no contract signed; no stock reserved or transferred; no final price or delivery schedule.\
+**Next step:** Prepare itemized quotes across branches and negotiate the conditional contract. Do not invent a conversion rate or decide Yu Zhong's next action/dialogue.\
+**Checkpoint:** Open the Qinglan auction chair checkpoint\
+**MAIN-001:** Isolated and unchanged.
+
+***
+
+## HISTORICAL POINTER — SBX-001 — 2026-10-24 08:46 AM (SCENE CLOSED; SUPERSEDED FOR ACTIVE SESSION)
 
 **Status:** The Su Lian visit and garden-walk scene is complete; no next scene is active. **Last confirmed position:** Gate of the Su family residence after farewell. Yu Zhong said he needed to return, but arrival at the Yu residence is not confirmed. **Narrated time:** Day 2, approximately 08:46 AM; provisional in-chat story time, not reconciled with the legacy world clock. **Final confirmed beat:** Yu Zhong told Su Lian that Qianlong found him between spaces of the universe, recognized him first, and claimed Yu Zhong created it; Yu Zhong fears revealing his origins could shake the world. Yu Zhong then thanked Su Lian and said he needed to return. Su Lian thanked him for visiting and wished him a safe journey. **Knowledge boundary:** Su Lian knows only what Yu Zhong disclosed. Qianlong's identity/claim and Yu Zhong's full origin remain unverified; do not infer more. **Relationship:** Engagement cancellation was discussed, but formal completion remains unconfirmed. **Props:** Guqin stored; black grand piano remains in the Su guest room; the music box was not confirmed moved. No other inventory change is confirmed. **Official chapter number:** Unverified. Chat labels such as “Bab 2 / Babak 25–40” are presentation labels, not verified canon numbering. **Player agency:** Only the user controls Yu Zhong's actions, dialogue, thoughts, feelings, intentions, decisions, and use of power. Do not invent his arrival home or next action. **Historical pointers:** The reset baseline, Meridian Sunyi scene, and cooking/poem/homeward-transition pointers remain preserved as historical records. They do not override this explicitly selected SBX-001 Su Lian session. **MAIN-001:** Isolated and unchanged.
 
