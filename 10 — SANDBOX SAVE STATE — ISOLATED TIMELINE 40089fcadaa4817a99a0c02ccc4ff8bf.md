@@ -1,5 +1,19 @@
 # 10 — SANDBOX SAVE STATE — ISOLATED TIMELINE
 
+## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN CONDITIONAL DEPOSIT AND PROCESSING ESTIMATE
+
+**Status:** IN PROGRESS. Active Sandbox scene remains the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is historical. MAIN-001 remains isolated and unchanged.\
+**Current location:** VIP reception room, upper floor of Balai Pelelangan Qinglan.\
+**Narrated time:** Day 2, morning; exact minute not established.\
+**Latest confirmed action:** Yu Zhong ordered the System to produce 10,000,000 pure-grade spirit stones, place them in a storage ring, and hand them to the chair as a deposit. The ring was handed over; the chair's staff verified the stated amount and purity in the scene. The chair placed it in a sealed custody box as conditional custody.\
+**Trade status:** Funds physically handed over and held conditionally; official deposit is not finalized until the written contract is agreed. No contract signed, no materials reserved, no shipment scheduled, and no final total quoted. Do not invent a currency conversion rate.\
+**Chair's estimated timing:** 4–6 hours to consolidate itemized prices and quantities; up to 1 day for final stock/authenticity verification across five branches. Searching suppliers for authenticated Divine-grade materials: at least 3 days for an initial search, no guarantee. Delivery time unknown until destination, final quantity, and route are confirmed. These are in-world estimates, not completed milestones.\
+**Next step:** Await the itemized quotation and final verification; then negotiate the written contract and treatment of conditional funds. Do not decide Yu Zhong's next action/dialogue.\
+**Checkpoint:** [Open the Qinglan auction chair checkpoint](sbx-001-qinglan-auction-chair-deposit-proposal-2026-10-24.md)\
+**MAIN-001:** Isolated and unchanged.
+
+***
+
 ## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN AUCTION CHAIR DEPOSIT PROPOSAL
 
 **Status:** IN PROGRESS. The active Sandbox scene is the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is preserved as historical. MAIN-001 remains isolated and unchanged.\
