@@ -129,10 +129,10 @@ Reputation, trade, local law, and faction relations change only when supported b
 
 A repeatable verification checklist now covers pre-session readiness, record integrity, timeline isolation, read-back, links, and recovery. Only checks supported by evidence may be marked PASS; inaccessible or untested sources remain BLOCKED. This documentation update does not itself certify the full repository or alter story state.
 
-## ACTIVE SESSION POINTER — SBX-001 — 2026-10-24
+## HISTORICAL SESSION POINTER — SBX-001 — 2026-10-24 (superseded by Su Lian farewell)
 
-**Active timeline:** SBX-001 (Sandbox).\
-**Status:** IN PROGRESS — pre-session reconciliation completed; scene remains open.\
+**Timeline:** SBX-001 (Sandbox; historical pointer only).\
+**Historical status at that checkpoint:** IN PROGRESS; superseded by the later 08:46 AM farewell checkpoint.\
 **Active checkpoint:** [SBX-001 — Pre-Session Reconciliation Checkpoint — 2026-10-24](sbx-001-pre-session-reconciliation-checkpoint-2026-10-24.md).\
 **Last confirmed beat:** Yu Zhong said it was time to return home after the cooking and poem scene. Intent to return is confirmed; arrival is not confirmed.\
 **In-world time / chapter number:** not verified; do not invent or increment.\

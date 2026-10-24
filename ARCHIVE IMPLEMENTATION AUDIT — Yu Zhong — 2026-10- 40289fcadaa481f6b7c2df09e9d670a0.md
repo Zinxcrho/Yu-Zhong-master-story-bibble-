@@ -1,5 +1,32 @@
 # ARCHIVE IMPLEMENTATION AUDIT — Yu Zhong — 2026-10-23
 
+## Latest Reconciliation — 2026-10-24 (SBX-001 — Su Lian)
+
+**Current active pointer:** SBX-18 — Su Lian visit and garden walk. The farewell closed at the gate of the Su family residence around Day 2, 08:46 AM (provisional in-chat time). No next scene is active. Yu Zhong's arrival at the Yu residence is not confirmed. MAIN-001 remains isolated and unchanged.
+
+**Verified repairs completed**
+
+* The canonical GitBook `Yu Zhong Source Archive` exported successfully to the repository root after change request #14. README, Control Center, and Sandbox Save State now place the Su Lian checkpoint first and mark the reset baseline as historical.
+* The legacy Documentation Master Story Bible was updated through change request #2. Its Meridian Sunyi checkpoint is now explicitly historical, and it links to the current Su Lian checkpoint. That legacy space has no active Git Sync, so it is a read-back-verified mirror, not the canonical export source.
+* Notion Master Story Bible, Control Center, and Sandbox Save State now show the 08:46 AM Su Lian checkpoint first. Older Meridian Sunyi, Tian Yu, and cooking/poem pointers are marked historical.
+* Yu Zhong — SBX-001 profile now matches the confirmed age 20, true realm 30, apparent/disguise realm 28, and current location relation to the new location record `Gerbang Kediaman Keluarga Su — SBX-001`. MAIN-001 and Shared Base were not changed.
+* All 30 Sandbox identity-baseline records in the Character Knowledge Ledger had their Source or Evidence and Notes reconciled to SBX-18. Their knowledge items and confidence were not changed; no NPC was granted knowledge or placed at the Su residence by inference.
+* The stale multiple-active-sessions audit was resolved against the current visible ledger: SBX-18 is Active; SBX-17, SBX-4, SBX-2, and SBX-1 are Archived.
+* The old guardian/prison location-link finding was closed as stale/missing: the described event is absent from both the current and archived Sandbox Timeline saved views. No removed prison location or event relation was invented.
+
+**Remaining limitations — do not claim full repository certification**
+
+* The raw GitHub file `08 — Sandbox Session Ledger (Isolated).csv` remains stale. GitHub `update_file` and branch creation were denied by the connected integration (HTTP 403). GitBook export updated Markdown documentation, but did not update that unmanaged CSV file.
+* The current Notion Session Ledger contains five visible rows. An earlier audit cited 17 rows; 12 historical rows are not present in the current data source and have not been reconstructed. Do not claim they were deleted or recovered.
+* The broad character/organization relation audit remains open. Yu Zhong's current-location relation is fixed; other relations must be verified individually before linking.
+* A separate imported Documentation space still reports Git Sync `pending` for `./documentation`, a path absent from the current repository tree. It remains a legacy mirror and must not be treated as synchronized or activated blindly.
+* Eighteen `_all.csv` pairs were byte-identical to their matching CSV files. They remain preserved pending lineage verification; no duplicate files were deleted.
+* A Main Story outline/index restoration question remains a separate decision. No Trash content was restored, and MAIN-001 was not modified.
+
+**Next safe step:** grant a write-capable GitHub integration or upload the corrected Session Ledger CSV manually. Then read the CSV back from `main`, compare all five visible ledger rows, and repeat the repository-level audit. Preserve all historical records; do not delete old rows as a cleanup shortcut.
+
+***
+
 ## Status
 
 **Status: AUDIT IN PROGRESS — first-pass cross-archive review completed; full row-by-row workspace certification is not yet complete.**
@@ -244,8 +271,8 @@ User explicitly requested to move the previously inventoried 25 Sandbox objects 
 
 ## Reset alignment update — 2026-10-24
 
-The creator reset SBX-001 to Chapter 0 — RESET / READY TO START. GitBook's Sandbox Save State and Living World Control Center have been updated and read back successfully. The Continuity Engine, Living World Simulation Manual, and Story Session Protocol now state that all older scene/checkpoint references are historical and superseded. MAIN-001 was not edited.
+At that earlier point, SBX-001 was reset to Chapter 0 — RESET / READY TO START, and the reset baseline was written/read back. A later explicit continuation selected the Su Lian visit as a new isolated SBX-001 session; the current active pointer is now the 08:46 AM farewell checkpoint described in the latest reconciliation section above. The reset remains historical metadata. MAIN-001 was not edited.
 
 ### Remaining repository-level limitation
 
-The linked GitHub CSV source files still contain Sandbox-specific records from prior story sessions, including old session summaries, Sandbox knowledge rows, a weather event, and an inventory snapshot. Attempts to write those files through the connected GitHub integration were denied (403), so they have not been changed or read back. Do not certify the entire repository reset as complete. The next required step is to obtain a write-capable GitHub path, then remove or neutralize only the SBX-001 story-state rows while preserving headers, templates, system registries, worldbuilding definitions, and all MAIN-001 rows.
+The raw GitHub Session Ledger CSV remains stale because the connected GitHub integration denied file writes (HTTP 403). The canonical GitBook export updated Markdown documentation, but did not change the unmanaged CSV. Do not certify repository-wide sync as complete. Once write access is available, reconcile the CSV to the five visible Notion session rows, mark SBX-18 Active and the four visible older records Archived, and read the file back. Preserve historical rows, headers, templates, system registries, worldbuilding definitions, and all MAIN-001 rows; do not delete records as a cleanup shortcut.

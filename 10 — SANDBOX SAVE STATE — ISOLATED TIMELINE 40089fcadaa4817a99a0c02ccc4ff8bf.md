@@ -117,11 +117,11 @@ Use existing sources and schemas; do not create duplicate systems.
 
 Reset requested and authorized by the creator on 2026-10-24. The active SBX-001 story flow, events, and checkpoints are cleared in this Save State. Permanent operating rules, system documentation, references, and this new-session template are retained. This edit does not delete the historical Git repository or automatically clear separate CSV/Markdown ledger records; those sources require a separate row-by-row pass before a repository-wide reset can be certified. MAIN-001 is not changed.
 
-## ACTIVE SESSION RECONCILIATION POINTER — SBX-001 — 2026-10-24
+## HISTORICAL SESSION POINTER — SBX-001 — 2026-10-24 (superseded by Su Lian farewell)
 
-The creator explicitly selected the cooking/poem/homeward-transition scene in the current conversation as the new active SBX-001 session. This session-specific pointer supersedes the reset baseline for this active session only; it does not delete historical records or alter MAIN-001.
+This section records an earlier cooking/poem/homeward-transition pointer. It is superseded by the current Su Lian farewell checkpoint at the top of this page. Preserve the details below as history; do not treat this section as active. MAIN-001 remains unchanged.
 
-* **Status:** IN PROGRESS; chapter number not verified.
+* **Historical status at that checkpoint:** IN PROGRESS; the later Su Lian farewell checkpoint closed the visit at 08:46 AM.
 * **Checkpoint:** [SBX-001 — Pre-Session Reconciliation Checkpoint — 2026-10-24](sbx-001-pre-session-reconciliation-checkpoint-2026-10-24.md).
 * **Last confirmed beat:** Yu Zhong said it was time to return home. Do not assume arrival at home.
 * **Confirmed context:** three years spent cooking and pursuing crafts; meat cooked at Yu Zhong's direction; System asked to make it taste heavenly; Yu Zhong invited the others to eat; a poem about falling, rising, and glory was composed and entrusted to Lian for saving.

@@ -88,7 +88,7 @@ The canonical `Yu Zhong Source Archive` space has active Git Sync to the reposit
 
 The canonical GitBook source archive is connected to this repository's `main` branch and was verified to export successfully on 2026-10-24. The active SBX-001 checkpoint is `SBX-001 — Su Lian Visit & Garden Walk — 2026-10-24`: the farewell is complete at the Su family residence gate, and no next scene is active. `MAIN-001` remains isolated and unchanged.
 
-Repository-wide certification remains in progress while the Session Ledger CSV is reconciled and the missing historical session records cited in an older audit are investigated. Duplicate-looking CSV mirrors are retained pending lineage verification; see the Archive Implementation Audit for exact remaining limits.
+Repository-wide certification is not complete. The current Notion Session Ledger has five visible rows: SBX-18 is Active and four older records are Archived. An earlier audit referenced 17 rows; 12 historical rows are not present in the current data source and have not been reconstructed. The raw GitHub Session Ledger CSV remains stale because writes through the connected GitHub integration returned HTTP 403. Duplicate-looking CSV mirrors are retained pending lineage verification. See the Archive Implementation Audit for exact remaining limits.
 
 ***
 
