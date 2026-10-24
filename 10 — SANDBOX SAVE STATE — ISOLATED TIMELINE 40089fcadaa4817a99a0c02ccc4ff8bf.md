@@ -1,5 +1,11 @@
 # 10 — SANDBOX SAVE STATE — ISOLATED TIMELINE
 
+## CURRENT ACTIVE STORY POINTER — RESET BASELINE — 2026-10-24
+
+**Status:** RESET BASELINE VERIFIED. Active Session ID: SBX-23. Session name: SBX-001 — Reset Baseline — 2026-10-24. Timeline ID: SBX-001. Current chapter: 0. **In-world time:** Not started. **Current location:** Not set. **Active scene:** None. **Pending scene:** Wait for explicit user instruction. **Active story events:** None. No prior narrative event is active in the new baseline. **Inventory and transactions:** Not established. Do not carry forward prior items, balances, offers, payments, debts, contracts, or ownership. **NPC relationships, emotions, and knowledge:** Not established for this baseline. Do not import pre-reset state. **Missions and saga progress:** No prior progress automatically active. **Main Story isolation:** MAIN-001 remains separate and unchanged. Main Story Linkage = None - Isolated. **Archive boundary:** Pre-reset SBX-18 through SBX-22 and earlier checkpoints are historical archives only. Preserve them; do not resume them or import their locations, time, decisions, relationships, inventory, NPC knowledge, or consequences unless the user explicitly re-establishes them. **Preserved:** Permanent system rules, confirmed static world canon, and Yu Zhong's core profile remain intact. Draft/Proposed systems and templates retain their original status. **Source of truth:** Notion Master Story Bible, Living World Control Center, and Session Ledger record SBX-23 were read back on 2026-10-24. The saved Session Ledger view showed SBX-23 as the only Active session among returned rows; prior visible sessions were Archived. **Next step:** Wait for the user's instruction. Do not create an opening scene, location, time, event, transaction, relationship, mission, or other state. **Sync boundary:** This is the current reset pointer. Historical sections below are retained as evidence only and do not override the reset baseline. GitHub CSV synchronization remains pending until a write and read-back succeed.
+
+***
+
 ## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN PREMIUM KIOSK SEARCH
 
 **Status:** IN PROGRESS. Active Sandbox scene remains the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is historical. MAIN-001 remains isolated and unchanged.\
