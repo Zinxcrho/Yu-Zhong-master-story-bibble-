@@ -1,6 +1,14 @@
 # LIVING WORLD CONTROL CENTER
 
-## Active Story Pointer — Reset Baseline — 2026-10-24
+## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 08:46 AM (SCENE CLOSED)
+
+**Status:** The Su Lian visit and garden-walk scene is complete; no next scene is active. **Last confirmed position:** Gate of the Su family residence after farewell. Yu Zhong said he needed to return, but arrival at the Yu residence is not confirmed. **Narrated time:** Day 2, approximately 08:46 AM; provisional in-chat story time, not reconciled with the legacy world clock. **Final confirmed beat:** Yu Zhong told Su Lian that Qianlong found him between spaces of the universe, recognized him first, and claimed Yu Zhong created it; Yu Zhong fears revealing his origins could shake the world. Yu Zhong then thanked Su Lian and said he needed to return. Su Lian thanked him for visiting and wished him a safe journey. **Knowledge boundary:** Su Lian knows only what Yu Zhong disclosed. Qianlong's identity/claim and Yu Zhong's full origin remain unverified; do not infer more. **Relationship:** Engagement cancellation was discussed, but formal completion remains unconfirmed. **Props:** Guqin stored; black grand piano remains in the Su guest room; the music box was not confirmed moved. No other inventory change is confirmed. **Official chapter number:** Unverified. Chat labels such as “Bab 2 / Babak 25–40” are presentation labels, not verified canon numbering. **Player agency:** Only the user controls Yu Zhong's actions, dialogue, thoughts, feelings, intentions, decisions, and use of power. Do not invent his arrival home or next action. **Historical pointers:** The reset baseline, Meridian Sunyi scene, and cooking/poem/homeward-transition pointers remain preserved as historical records. They do not override this explicitly selected SBX-001 Su Lian session. **MAIN-001:** Isolated and unchanged.
+
+[Open the verified Su Lian checkpoint](sbx-001-su-lian-visit-and-garden-walk-2026-10-24.md)
+
+***
+
+## Historical Reset Baseline — SBX-001 — 2026-10-24 (superseded for the active chat session)
 
 **Active timeline:** None currently running.\
 **SBX-001 status:** RESET / READY TO START.\

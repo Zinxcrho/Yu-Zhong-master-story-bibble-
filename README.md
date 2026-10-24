@@ -1,8 +1,8 @@
+# README
+
 YU ZHONG — MASTER STORY BIBLE & ABSOLUTE CREATOR SYSTEM
 
-Project Type: Xianxia Worldbuilding & Story Continuity System
-Documentation Status: In Development
-Repository Purpose: Canon Documentation, Story Archives, and Continuity Management
+Project Type: Xianxia Worldbuilding & Story Continuity System Documentation Status: In Development Repository Purpose: Canon Documentation, Story Archives, and Continuity Management
 
 1. Project Overview
 
@@ -12,11 +12,11 @@ This repository preserves exported documentation and structured records to suppo
 
 2. Core Principles
 
-- Preserve established canon and explicit creator decisions.
-- Never invent confirmed canon from unverified drafts, rumors, or proposals.
-- Maintain traceable story history and checkpoint references.
-- Preserve existing records before making structural changes.
-- Verify changes before declaring synchronization complete.
+* Preserve established canon and explicit creator decisions.
+* Never invent confirmed canon from unverified drafts, rumors, or proposals.
+* Maintain traceable story history and checkpoint references.
+* Preserve existing records before making structural changes.
+* Verify changes before declaring synchronization complete.
 
 3. Timeline Isolation
 
@@ -34,25 +34,25 @@ Isolation Rule: Events, characters' knowledge, relationships, inventory, cultiva
 
 The repository may contain:
 
-- Character Registry
-- Character Knowledge Ledger
-- World & Organization Registry
-- Chapter Ledger
-- Saga & Mystery Tracker
-- Inventory & Transaction Ledger
-- Cultivation & Ability Registry
-- Sandbox Session Ledger
-- Current Story State — Main Canon
-- Sandbox Save State — Isolated Timeline
-- Timeline & Consequence Ledger
-- Consistency Review Log
-- NPC Emotion & Relationship Ledger
-- World Clock & Event Scheduler
-- Geography & Location Registry
-- Economy & Market Ledger
-- Political Relations & Faction Ledger
-- Ecology & Species Registry
-- Additional worldbuilding and continuity records
+* Character Registry
+* Character Knowledge Ledger
+* World & Organization Registry
+* Chapter Ledger
+* Saga & Mystery Tracker
+* Inventory & Transaction Ledger
+* Cultivation & Ability Registry
+* Sandbox Session Ledger
+* Current Story State — Main Canon
+* Sandbox Save State — Isolated Timeline
+* Timeline & Consequence Ledger
+* Consistency Review Log
+* NPC Emotion & Relationship Ledger
+* World Clock & Event Scheduler
+* Geography & Location Registry
+* Economy & Market Ledger
+* Political Relations & Faction Ledger
+* Ecology & Species Registry
+* Additional worldbuilding and continuity records
 
 CSV files are structured data exports. Markdown files contain narrative documentation or story-state information. Their exact contents and relationships must be verified before synchronization.
 
@@ -73,24 +73,23 @@ Do not resolve unresolved canon conflicts by guessing.
 
 GitBook is intended to organize and present the Master Story Bible, world lore, cultivation hierarchy, faction documentation, and continuity protocols.
 
-GitBook synchronization must be configured and tested. Uploading files to GitHub does not automatically prove that the documentation is published or synchronized correctly.
+The canonical `Yu Zhong Source Archive` space has active Git Sync to the repository root and its latest export was verified on 2026-10-24. Other imported Documentation spaces have separate integration states; they must not be assumed synchronized merely because the canonical space is connected. A successful export does not certify every CSV row, historical mirror, or cross-reference.
 
 7. Data Integrity
 
-- Do not permanently delete historical records without explicit authorization.
-- Do not overwrite source files without a verified backup.
-- Check duplicate-looking CSV exports before removing any.
-- Keep timeline-specific Save States separate.
-- Record significant changes and verify the resulting content.
-- Do not claim that an automated backup or synchronization has run unless verified.
+* Do not permanently delete historical records without explicit authorization.
+* Do not overwrite source files without a verified backup.
+* Check duplicate-looking CSV exports before removing any.
+* Keep timeline-specific Save States separate.
+* Record significant changes and verify the resulting content.
+* Do not claim that an automated backup or synchronization has run unless verified.
 
 8. Current Status
 
-This repository contains exported project records and is being prepared for structured GitBook documentation.
+The canonical GitBook source archive is connected to this repository's `main` branch and was verified to export successfully on 2026-10-24. The active SBX-001 checkpoint is `SBX-001 — Su Lian Visit & Garden Walk — 2026-10-24`: the farewell is complete at the Su family residence gate, and no next scene is active. `MAIN-001` remains isolated and unchanged.
 
-The repository contents, active checkpoints, and cross-references must be audited before declaring the entire project synchronized.
+Repository-wide certification remains in progress while the Session Ledger CSV is reconciled and the missing historical session records cited in an older audit are investigated. Duplicate-looking CSV mirrors are retained pending lineage verification; see the Archive Implementation Audit for exact remaining limits.
 
----
+***
 
-Project: Yu Zhong — Master Story Bible & Absolute Creator System
-Primary Goal: Preserve canon integrity, timeline isolation, and reliable long-term story continuity.
+Project: Yu Zhong — Master Story Bible & Absolute Creator System Primary Goal: Preserve canon integrity, timeline isolation, and reliable long-term story continuity.
