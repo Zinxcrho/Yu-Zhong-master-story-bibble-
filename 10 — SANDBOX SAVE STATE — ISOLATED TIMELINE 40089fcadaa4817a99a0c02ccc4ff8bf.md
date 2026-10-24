@@ -1,5 +1,19 @@
 # 10 — SANDBOX SAVE STATE — ISOLATED TIMELINE
 
+## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN KIOSK INQUIRY
+
+**Status:** IN PROGRESS. Active Sandbox scene remains the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is historical. MAIN-001 remains isolated and unchanged.\
+**Current location:** VIP reception room, upper floor of Balai Pelelangan Qinglan.\
+**Narrated time:** Day 2, morning; exact minute not established.\
+**Funds:** Yu Zhong handed the chair a storage ring containing 10,000,000 pure-grade spirit stones. The ring is in sealed conditional custody; the official deposit awaits a written contract. No materials reserved or shipped.\
+**Stock timing:** 4–6 hours to consolidate itemized prices and quantities; up to 1 day for final verification across five branches. Initial supplier search for authenticated Divine-grade materials: at least 3 days, no guarantee. Delivery time unknown.\
+**Latest dialogue:** Yu Zhong asks where he can purchase a kiosk. The chair suggests Eastern Trade Street (cultivation supplies), Main Merchants District (strategic location, potentially higher prices), and Outer-City Market (simpler, potentially lower-cost kiosks). These are leads only; no individual kiosk, availability, or price is confirmed.\
+**Pending:** Yu Zhong has not chosen a location or budget. No kiosk has been inspected, quoted, reserved, or purchased. Do not decide his preference.\
+**Checkpoint:** [Open the Qinglan auction chair checkpoint](sbx-001-qinglan-auction-chair-deposit-proposal-2026-10-24.md)\
+**MAIN-001:** Isolated and unchanged.
+
+***
+
 ## CURRENT ACTIVE STORY POINTER — SBX-001 — 2026-10-24 — QINGLAN CONDITIONAL DEPOSIT AND PROCESSING ESTIMATE
 
 **Status:** IN PROGRESS. Active Sandbox scene remains the meeting with the Qinglan auction pavilion chair. The earlier Su Lian visit is historical. MAIN-001 remains isolated and unchanged.\

@@ -58,6 +58,16 @@ These are the previously narrated audit figures, not a line-item quotation. The 
 7. Delivery time cannot yet be estimated until the destination, final quantities, and route are confirmed.
 8. Finalize the written contract before converting the conditional custody into an official deposit or reserving stock.
 
+## Latest scene — kiosk inquiry
+
+Yu Zhong asked the chair where a shop kiosk could be purchased. The chair suggested investigating three areas:
+
+* **Eastern Trade Street:** small shops for spiritual materials, pills, weapons, and cultivator supplies.
+* **Main Merchants District:** a strategic commercial area with larger merchants; prices may be higher.
+* **Outer-City Market:** simpler kiosks that may cost less, but traffic and demand should be checked.
+
+These are initial directions only. No individual kiosk, price, availability, inspection, reservation, or purchase has been confirmed. Yu Zhong has not chosen a location or budget. Do not choose on his behalf.
+
 ## Player agency and continuity
 
 The user exclusively controls Yu Zhong's actions, dialogue, thoughts, feelings, intentions, decisions, and use of power. The handover of the storage ring containing 10,000,000 pure-grade spirit stones is confirmed because the user explicitly ordered it. Do not invent further Yu Zhong actions or dialogue. Preserve prior narrated purchases without silently correcting their totals; previously noted item-level accounting discrepancies remain unresolved until reconciled. MAIN-001 remains isolated and unchanged.
