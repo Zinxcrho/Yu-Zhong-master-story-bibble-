@@ -130,3 +130,18 @@ A repeatable verification checklist now covers pre-session readiness, record int
 **In-world time / chapter number:** not verified; do not invent or increment.\
 **Continuity guard:** The creator states Yu Zhong's father had already seen Qianlong. Verify that earlier encounter before continuing this thread.\
 **MAIN-001:** isolated and unchanged. Historical SBX records are preserved; this pointer does not certify all ledgers as globally reconciled.
+
+***
+
+## ACTIVE CHAT OVERRIDE — SBX-001 — 2026-10-24
+
+**Active timeline:** SBX-001 — isolated Sandbox continuation explicitly selected by the creator in the current conversation.\
+**Current scene status:** The Su Lian visit and garden walk have closed at the gate of the Su family residence after farewell. No next scene has started.\
+**Last narrated position:** Su family residence gate; Yu Zhong's return to the Yu residence is not yet confirmed.\
+**Latest checkpoint:** [SBX-001 — Su Lian Visit & Garden Walk — 2026-10-24](sbx-001-su-lian-visit-and-garden-walk-2026-10-24.md)
+
+The reset baseline above is preserved as historical metadata and is not deleted or silently rewritten. This later override applies only to the new SBX-001 session the creator explicitly chose to continue in chat. It does not resume the older Meridian Sunyi scene and does not alter MAIN-001.
+
+**Key NPC knowledge:** Su Lian knows only that Yu Zhong says he is not from this world; he told her he encountered Qianlong between spaces of the universe, Qianlong recognized him and claimed Yu Zhong created it, and he fears revealing his origins could shake the world. She does not know further details. Engagement cancellation was discussed but not formally confirmed complete.
+
+**Player agency:** The user exclusively controls Yu Zhong. Wait for the user's next instruction before starting a new scene or deciding Yu Zhong's next actions.

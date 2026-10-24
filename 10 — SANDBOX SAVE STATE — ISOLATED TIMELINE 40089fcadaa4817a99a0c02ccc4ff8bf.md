@@ -120,3 +120,18 @@ The creator explicitly selected the cooking/poem/homeward-transition scene in th
 * **Continuity guard:** Yu Zhong's father had already seen Qianlong, per the creator's correction. Verify the prior event before narrating.
 * **Unverified:** exact location, in-world time, chapter number, attendees, father's encounter details, Lian's exact identity/location.
 * **MAIN-001:** unchanged and isolated. Do not import unrelated older SBX story arcs unless the creator re-establishes them.
+
+***
+
+## ACTIVE CHAT OVERRIDE — SBX-001 — 2026-10-24
+
+**Status:** Completed scene; awaiting the user's next scene instruction.\
+**Last scene:** Su Lian visit and garden walk.\
+**Current narrated position:** Gate of the Su family residence after farewell; return to the Yu residence is not yet confirmed.\
+**Latest checkpoint:** [SBX-001 — Su Lian Visit & Garden Walk — 2026-10-24](sbx-001-su-lian-visit-and-garden-walk-2026-10-24.md)
+
+This is a new isolated continuation explicitly authorized by the creator in the current conversation after the prior reset baseline. Keep the reset baseline above intact as historical administrative metadata; this override is the current state for the newly authorized chat session only. Do not import the old Meridian Sunyi scene. MAIN-001 remains unchanged.
+
+**Continuity:** The engagement cancellation was discussed but is not confirmed formally complete. Yu Zhong told Su Lian that he found Qianlong between spaces of the universe, that Qianlong recognized him and claimed Yu Zhong created it, and that revealing Yu Zhong's origin could shake the world. Su Lian knows only these disclosed statements and respects his privacy. The official chapter number remains unverified; chat labels “Bab 2 / Babak 25–40” are presentation labels only.
+
+**Scene closure:** Yu Zhong thanked Su Lian and said he needed to return. Su Lian thanked him for visiting and wished him a safe journey. No next scene is active yet.
